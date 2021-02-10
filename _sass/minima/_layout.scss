@@ -180,6 +180,30 @@
   flex: 1;
 }
 
+flexbody {
+  height: 100%;
+  overflow: hidden;
+  margin: 0px;
+  display: flex;
+}
+.column {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#left {
+  flex-shrink: 0;
+  background-color: white;
+}
+#right {
+  background-color: #f3f3f3;
+}
+.bottom {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
 .page-heading {
   @include relative-font-size(2);
 }
