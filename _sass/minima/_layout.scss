@@ -180,28 +180,27 @@
   flex: 1;
 }
 
-flexbody {
-  height: 100%;
-  overflow: hidden;
-  margin: 0px;
+.side-nav-content {
   display: flex;
+  flex-direction: row;
 }
+
+#side-nav {
+  flex-shrink: 0;
+  width: 15%;
+  height: 1000px;
+  overflow: auto;
+}
+
+#side-content {
+  padding-left: $spacing-unit;
+  height: 1000px;
+  overflow: auto;
+}
+
 .column {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-#left {
-  flex-shrink: 0;
-  background-color: white;
-}
-#right {
-  background-color: #f3f3f3;
-}
-.bottom {
-  flex-grow: 1;
-  overflow-y: auto;
-  padding: 20px;
+  overflow: hidden;
 }
 
 .page-heading {
