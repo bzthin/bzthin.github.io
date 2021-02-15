@@ -1,0 +1,23 @@
+.side-nav-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+#side-nav {
+    flex-shrink: 0;
+    width: 15%;
+    height: 1000px;
+    overflow: auto;
+    border-right: 1px solid rgb(200, 200, 200);
+}
+
+#side-content {
+    padding-left: $spacing-unit;
+    height: 1000px;
+    overflow: auto;
+}
+
+.column {
+    height: 100%;
+    overflow: hidden;
+}

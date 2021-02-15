@@ -18,6 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Sample live reload command
+# bundle exec jekyll serve --livereload
+
 title: BusyFolio
 # email: bingzong91@gmail.com
 # Write an awesome description for your new site here. You can edit this
@@ -29,6 +32,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
+header_pages:
+- pages/about.md
+- pages/technical/index.md
 
 plugins:
   - jekyll-feed
