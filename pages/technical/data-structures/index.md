@@ -7,19 +7,6 @@ permalink: /data-structures
 # Data Structures
 This page contains data structures information. 
 
-## Big O Cheat Sheet
-
-| DS | AVG TC | AVG TC | AVG TC | AVG TC | W TC | W TC | W TC | W TC | SC |
-|    | Access | Search | Insertion | Deletion | Access | Search | Insertion | Deletion | |
-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|
-| Hash Table | NA | O(1) | O(1) | O(1) | NA | O(n) | O(n) | O(n) | O(n) |
-
-Legend:
-- DS: Data structure
-- AVG TC: Average time complexity
-- W TC: Worst time complexity
-- SC: Space complexity
-
 ## C++ STL data structures
 - `array`: Fixed size array
 - `deque`: Double ended queue.

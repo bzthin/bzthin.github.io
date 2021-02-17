@@ -6,12 +6,13 @@ permalink: /data-structures/array/
 
 # Array
 This page contains array information. 
+- C++ STL fixed sized array: `array`.
+- C++ STL dynamic sized array: `vector`.
 
 ## Fixed size array
 - Fixed sized normal arrays. Nothing much to highlight...
 
 ## Dynamic sized array
-- In c++ stl, these would be `vector` class.
 - Vectors are allocated a specific capacity at the beginning.
 - When the number of elements exceeds that capacity, 
 a vector will dynamically allocate memory for a new array that has twice the capacity of what it has before,

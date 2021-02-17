@@ -6,8 +6,11 @@ permalink: /about/
 
 Hi, my name is Bing Zong, I am a software engineer. 
 
-Over the years, I realized that studying for technical interviews always involved revising back computer science fundamentals. This has always led to scambling back on old notes or books to find these information. Thus I have decided to create a place to store these information, and that is how this website came about.  
+Over the years, I realized that studying for technical interviews always involved revising back computer science fundamentals. 
+This has always led to scambling back on old notes or books to find these information. 
+Thus I have decided to create a place to store these information, and that is how this website came about.  
 
+Feel free to hit me up on [linkedin](https://www.linkedin.com/in/bzthin/) if theres any feedback.
 ## Resources
 ### Books
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/): Best book to start off. Also known as CTCI.

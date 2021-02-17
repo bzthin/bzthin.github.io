@@ -6,6 +6,7 @@ permalink: /data-structures/hash-table/
 
 # Hash Table
 Data structure used to map keys for values. 
+- C++ STL hash table: `unordered_map`.
 
 ## General
 - We have an array as our storage. 
@@ -25,16 +26,3 @@ Its possible our hash code maps different keys to the same index in the array. S
 - Each entry contains value or empty or deleted. 
 - After mapping to an index, we search next elements until desired element is found or its clear that it is not in the table.
 - Way of searching can be any method. For example linear probing, quadratic probing or double hashing to find next index.
-
-## Complexity
-
-| DS | AVG TC | AVG TC | AVG TC | AVG TC | W TC | W TC | W TC | W TC | SC |
-|    | Access | Search | Insertion | Deletion | Access | Search | Insertion | Deletion | |
-|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|
-| Hash Table | NA | O(1) | O(1) | O(1) | NA | O(n) | O(n) | O(n) | O(n) |
-
-Legend:
-- DS: Data structure
-- AVG TC: Average time complexity
-- W TC: Worst time complexity
-- SC: Space complexity
