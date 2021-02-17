@@ -7,8 +7,15 @@ technical:
     url: /complexity
   - title: Math
     url: /math
+  - title: Data Structures
+    url: /data-structures
+    subfolderitems:
+      - page: Array
+        url: /data-structures/array
+      - page: Hash Table
+        url: /data-structures/hash-table
   - title: Algorithms
     url: /algorithms
     subfolderitems:
       - page: Array
-        url: /array
+        url: /algorithms/array

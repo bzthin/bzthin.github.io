@@ -17,6 +17,7 @@ Over the years, I realized that studying for technical interviews always involve
 - [LeetCode](https://leetcode.com/): Best platform for coding interview practice. Purchase the premium and you wont need any other platforms. Also known as LC.
 - [Google coding competitions](https://codingcompetitions.withgoogle.com/): Try out google's competitions.
 - [Pramp](https://www.pramp.com/#/): Free mock interviews with others.
+- [Big O Cheat Sheet](https://www.bigocheatsheet.com/): Used to do quick reference
 
 ### System Design
 - [CheckCheckzz System Design List](https://github.com/checkcheckzz/system-design-interview): Contains tons of resources for system design practice.

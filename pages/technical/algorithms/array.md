@@ -1,7 +1,7 @@
 ---
 layout: page_with_side_nav
 title: Array
-permalink: /array/
+permalink: /algorithms/array/
 ---
 
 # Array
