@@ -14,8 +14,16 @@ technical:
         url: /data-structures/array
       - page: Hash Table
         url: /data-structures/hash-table
+      - page: Linked List
+        url: /data-structures/linked-list
+      - page: Queue
+        url: /data-structures/queue
+      - page: Stack
+        url: /data-structures/stack
   - title: Algorithms
     url: /algorithms
     subfolderitems:
       - page: Array
         url: /algorithms/array
+      - page: Linked List
+        url: /algorithms/linked-list

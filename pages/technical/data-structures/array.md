@@ -6,8 +6,8 @@ permalink: /data-structures/array/
 
 # Array
 This page contains array information. 
-- C++ STL fixed sized array: `array`.
-- C++ STL dynamic sized array: `vector`.
+- C++ STL fixed sized array: [`array`](http://www.cplusplus.com/reference/array/array/).
+- C++ STL dynamic sized array: [`vector`](http://www.cplusplus.com/reference/vector/vector/).
 
 ## Fixed size array
 - Fixed sized normal arrays. Nothing much to highlight...
