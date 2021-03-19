@@ -20,6 +20,8 @@ technical:
         url: /data-structures/queue
       - page: Stack
         url: /data-structures/stack
+      - page: Tree and Graphs
+        url: /data-structures/tree-graph
   - title: Algorithms
     url: /algorithms
     subfolderitems:
