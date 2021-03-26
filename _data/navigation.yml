@@ -29,3 +29,5 @@ technical:
         url: /algorithms/array
       - page: Linked List
         url: /algorithms/linked-list
+      - page: Tree and Graphs
+        url: /algorithms/tree-graph

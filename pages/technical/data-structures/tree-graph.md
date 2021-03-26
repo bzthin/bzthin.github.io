@@ -1,14 +1,15 @@
 ---
 layout: page_with_side_nav
-title: Tree and Graphs
+title: Trees and Graphs
 permalink: /data-structures/tree-graph/
 ---
 
-# Tree and Graphs
-This page contains tree and graph information. 
+# Trees and Graphs
+This page contains trees and graphs information. 
+- C++ STL max heap: [`priority_queue`](https://www.cplusplus.com/reference/queue/priority_queue/)
 
 ## Node
-- Simple defintion of a node
+- Simple defintion of a node 
 ```c++
 struct Node
 {
@@ -17,7 +18,7 @@ struct Node
 };
 ```
 
-## Tree
+# Tree
 - Consist of nodes. Each nodes has zero or more child nodes
 
 ## Binary tree
@@ -37,11 +38,6 @@ struct Node
 ### Perfect binary tree
 - Tree that is both full and complete.
 
-### Binary tree traversal
-- In order (left, current, right)
-- Pre order (current, left, right)
-- Post order (left, right, current)
-
 ### Binary Heap
 - Min or max heaps. They are complete binary trees.
 - Can be represented by tree or vector. 
@@ -49,6 +45,41 @@ struct Node
 - Extract Min/Max: Extract the top, swap with last element in the tree and bubble down to find its placing. Choose left or right nodes yourself.
 
 ## Tries (Prefix trees)
+- It is a n-ary tree where characters are stored in each node.
+- Its leaf nodes are often '*' which is used to indicate a completed word.
+- Often used for quick prefix lookup
 
 
+# Graph
+- A graph is a collection of nodes with edges.
+- Graphs can be directed or undirected.
+- Graphs could have multiple isolated sub graphs.
+- Graphs can also have cycles. An acyclic graph is one without cycles.
+
+## Adjacency List
+- Most common way to represent a graph
+- Every node stores a list of adjacent nodes it is connecting to.
+- Sample code
+```c++
+// Defining with STL
+vector<List<int>> graph;
+
+// Defining ourselves
+struct Graph
+{
+    vector<Node> nodes;
+}
+
+struct Node 
+{
+    int val;
+    vector<Node*> children;
+}
+```
+
+## Adjacency Matrices
+- Another way to represent a graph
+- It is a NxN boolean matrix where each cell(matrix[i][j]) represents if there is an edge from node i to j.
+
+## Graph search
 
