@@ -67,14 +67,9 @@ vector<List<int>> graph;
 // Defining ourselves
 struct Graph
 {
-    vector<Node> nodes;
+    vector<Node*> nodes;
 }
 
-struct Node 
-{
-    int val;
-    vector<Node*> children;
-}
 ```
 
 ## Adjacency Matrices
