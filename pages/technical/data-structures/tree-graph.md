@@ -49,7 +49,6 @@ struct Node
 - Its leaf nodes are often '*' which is used to indicate a completed word.
 - Often used for quick prefix lookup
 
-
 # Graph
 - A graph is a collection of nodes with edges.
 - Graphs can be directed or undirected.
@@ -60,6 +59,7 @@ struct Node
 - Most common way to represent a graph
 - Every node stores a list of adjacent nodes it is connecting to.
 - Sample code
+
 ```c++
 // Defining with STL
 vector<List<int>> graph;
@@ -81,5 +81,4 @@ struct Node
 - Another way to represent a graph
 - It is a NxN boolean matrix where each cell(matrix[i][j]) represents if there is an edge from node i to j.
 
-## Graph search
 
