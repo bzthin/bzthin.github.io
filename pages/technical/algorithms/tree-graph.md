@@ -29,7 +29,7 @@ This page contains trees and graphs algorithms.
 
 ### Topological sort
 - Kahn's algorithm, linear method. 
-  - Time complexity: O(V + E)
+  - Time complexity: O(V + E) where V is number of vertices and E is number of edges
   - Space complexity: O(V + E)
 
 ```
@@ -53,8 +53,8 @@ else
 
 
 - Alternative method using DFS
-  - Time complexity: O(|V| + |E|)
-  - Space complexity: O(|V| + |E|)
+  - Time complexity: O(V + E) where V is number of vertices and E is number of edges
+  - Space complexity: O(V + E)
 
 ```
 L ← Empty list that will contain the sorted nodes
