@@ -50,14 +50,12 @@ else
     return L   (a topologically sorted order)
 ```
 
-
-
 - Alternative method using DFS
   - Time complexity: O(V + E) where V is number of vertices and E is number of edges
   - Space complexity: O(V + E)
 
 ```
-L ← Empty list that will contain the sorted nodes
+L = Empty list that will contain the sorted nodes
 while exists nodes without a permanent mark do
     select an unmarked node n
     visit(n)
