@@ -29,8 +29,8 @@ This page contains trees and graphs algorithms.
 
 ### Topological sort
 - Kahn's algorithm, linear method. 
-  - Time complexity: O(|V| + |E|)
-  - Space complexity: O(|V| + |E|)
+  - Time complexity: O(V + E)
+  - Space complexity: O(V + E)
 
 ```
 L = Empty list that will contain the sorted elements
