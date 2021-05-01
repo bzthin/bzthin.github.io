@@ -6,6 +6,14 @@ permalink: /misc/bits-manipulation/
 
 # Bits Manipulation
 
+## Bitwise operations
+- NOT: ~
+- AND: &
+- OR: \|
+- XOR: ^
+- Left Shift: <<
+- Right Shift: >>
+
 ## Two's Complement
 - Used in computing as a method of signed number representation.
 - A positive number is represented as itself 
