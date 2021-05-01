@@ -31,3 +31,13 @@ technical:
         url: /algorithms/linked-list
       - page: Tree and Graphs
         url: /algorithms/tree-graph
+  - title: Misc
+    url: /misc
+    subfolderitems:
+      - page: Bits Manipulation
+        url: /misc/bits-manipulation
+      - page: Dynamic Programming
+        url: /misc/dynamic-programming
+  - title: System Design
+    url: /system-design
+    
