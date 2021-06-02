@@ -29,6 +29,10 @@ technical:
         url: /algorithms/array
       - page: Linked List
         url: /algorithms/linked-list
+      - page: Searching
+        url: /algorithms/searching
+      - page: Sorting
+        url: /algorithms/sorting
       - page: Tree and Graphs
         url: /algorithms/tree-graph
   - title: Misc
