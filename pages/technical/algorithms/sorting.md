@@ -47,6 +47,13 @@ Perform the partition on the left and right subparts of the array.
 ## Radix Sort
 - Runtime Average: O(kn)
 - Runtime Worst: O(kn)
-- Memory: O()
-- Algorithm: Ssorting algorithm for integers that takes advantage of the fact that integers have a finite number of bits. 
+- Memory: O(1)
+- Algorithm: Sorting algorithm for integers that takes advantage of the fact that integers have a finite number of bits. 
 In radix sort, we iterate through each digit of the number, grouping numbers by each digit. 
+
+## Bucket Sort
+- Runtime Average: O(n)
+- Runtime Worst: O(n^2)
+- Memory: O(n)
+- Algorithm: Bucket sort, or bin sort, is a sorting algorithm that works by distributing the elements of an array into a number of buckets. 
+Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm.
