@@ -57,3 +57,52 @@ In radix sort, we iterate through each digit of the number, grouping numbers by 
 - Memory: O(n)
 - Algorithm: Bucket sort, or bin sort, is a sorting algorithm that works by distributing the elements of an array into a number of buckets. 
 Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm.
+
+### Topological sort
+- Kahn's algorithm, linear method. 
+  - Time complexity: O(V + E) where V is number of vertices and E is number of edges
+  - Space complexity: O(V + E)
+
+```
+L = Empty list that will contain the sorted elements
+S = Set of all nodes with no incoming edge
+
+while S is non-empty do
+    remove a node n from S
+    add n to tail of L
+    for each node m with an edge e from n to m do
+        remove edge e from the graph
+        if m has no other incoming edges then
+            insert m into S
+
+if graph has edges then
+    return error   (graph has at least one cycle)
+else 
+    return L   (a topologically sorted order)
+```
+
+- Alternative method using DFS
+  - Time complexity: O(V + E) where V is number of vertices and E is number of edges
+  - Space complexity: O(V + E)
+
+```
+L = Empty list that will contain the sorted nodes
+while exists nodes without a permanent mark do
+    select an unmarked node n
+    visit(n)
+
+function visit(node n)
+    if n has a permanent mark then
+        return
+    if n has a temporary mark then
+        stop   (not a DAG)
+
+    mark n with a temporary mark
+
+    for each node m with an edge from n to m do
+        visit(m)
+
+    remove temporary mark from n
+    mark n with a permanent mark
+    add n to head of L
+```

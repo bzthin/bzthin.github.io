@@ -40,8 +40,14 @@ technical:
     subfolderitems:
       - page: Bits Manipulation
         url: /misc/bits-manipulation
+      - page: Databases 
+        url: /misc/databases
       - page: Dynamic Programming
         url: /misc/dynamic-programming
+      - page: Multithreading 
+        url: /misc/multithreading
+      - page: Others 
+        url: /misc/others
   - title: System Design
     url: /system-design
     

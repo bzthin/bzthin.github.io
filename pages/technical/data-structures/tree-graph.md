@@ -76,4 +76,7 @@ struct Graph
 - Another way to represent a graph
 - It is a NxN boolean matrix where each cell(matrix[i][j]) represents if there is an edge from node i to j.
 
-
+## Other common trees TBD
+- Self balancing trees AVL, Splay
+- Red black tree
+- B-Trees
