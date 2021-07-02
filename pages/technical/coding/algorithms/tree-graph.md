@@ -26,3 +26,9 @@ This page contains trees and graphs algorithms.
 - Used to find shortest path between a source and destination.
 - Runs BFS from source and destination to reduce the search space. 
 - When their searches collides, we have found path.
+
+
+### Graph algorithms (TBD) 
+- TBD (Distance, search, connectivity, cycle-detection etc)
+- 3 basic ways to represent graph in memory (object and pointers, matrix, and adjacency list) and their pros and cons
+- Basic graph traversal algorithms, BFS, DFS.

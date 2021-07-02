@@ -1,7 +1,7 @@
 ---
 layout: page_with_side_nav
 title: Bits Manipulation
-permalink: /misc/bits-manipulation/
+permalink: /algorithms/bits-manipulation/
 ---
 
 # Bits Manipulation

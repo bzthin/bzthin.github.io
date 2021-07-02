@@ -1,7 +1,7 @@
 ---
 layout: page_with_side_nav
 title: Dynamic Programming
-permalink: /misc/dynamic-programming/
+permalink: /algorithms/dynamic-programming/
 ---
 
 # Dynamic programming 

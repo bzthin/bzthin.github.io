@@ -15,7 +15,19 @@ layout: default
 
       <ul>
         {% for entry in item.subfolderitems %}
-          <li><a href="{{entry.url}}">{{ entry.page }}</a></li>
+          <li>
+            {% if entry.url %}
+              <a href="{{entry.url}}">{{ entry.page }}</a>
+            {% else %}
+              {{ entry.page }}
+            {% endif %}
+            
+            <ul>
+              {% for subEntry in entry.subsubfolderitems %}
+                <li><a href="{{subEntry.url}}">{{ subEntry.page }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
         {% endfor %}
       </ul>
     {% endfor %}

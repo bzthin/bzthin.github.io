@@ -1,13 +1,13 @@
 ---
 layout: page_with_side_nav
-title: Algorithms
-permalink: /algorithms/
+title: Coding Interview
+permalink: /coding/coding-interview/
 ---
 
-# Algorithms
-This page contains algorithms information. 
+# Coding Interview
+This page contains coding interview information. 
 
-## Steps to solving technical problems
+## Steps to solving coding problems
 - Gather requirements: 
   - Listen to the interviewer question. 
   - Ask questions to gather requirements.

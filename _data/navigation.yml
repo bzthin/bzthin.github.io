@@ -1,53 +1,63 @@
 technical:
-  - title: Resume
-    url: /resume
+  - title: Interview Process
+    subfolderitems:
+      - page: Interview Lifecycle
+        url: /interview-process/lifecycle
+      - page: Resume
+        url: /interview-process/resume
   - title: Behavioral
-    url: /behavioral
-  - title: Complexity
-    url: /complexity
-  - title: Math
-    url: /math
-  - title: Data Structures
-    url: /data-structures
     subfolderitems:
-      - page: Array
-        url: /data-structures/array
-      - page: Hash Table
-        url: /data-structures/hash-table
-      - page: Linked List
-        url: /data-structures/linked-list
-      - page: Queue
-        url: /data-structures/queue
-      - page: Stack
-        url: /data-structures/stack
-      - page: Tree and Graphs
-        url: /data-structures/tree-graph
-  - title: Algorithms
-    url: /algorithms
+      - page: Preparation
+        url: /behavioral
+  - title: Coding
     subfolderitems:
-      - page: Array
-        url: /algorithms/array
-      - page: Linked List
-        url: /algorithms/linked-list
-      - page: Searching
-        url: /algorithms/searching
-      - page: Sorting
-        url: /algorithms/sorting
-      - page: Tree and Graphs
-        url: /algorithms/tree-graph
-  - title: Misc
-    url: /misc
-    subfolderitems:
-      - page: Bits Manipulation
-        url: /misc/bits-manipulation
-      - page: Databases 
-        url: /misc/databases
-      - page: Dynamic Programming
-        url: /misc/dynamic-programming
-      - page: Multithreading 
-        url: /misc/multithreading
-      - page: Others 
-        url: /misc/others
+      - page: Coding Interview
+        url: /coding/coding-interview/
+      - page: Complexity
+        url: /complexity
+      - page: Math
+        url: /math
+      - page: Data Structures
+        url: /data-structures
+        subsubfolderitems:
+          - page: Array
+            url: /data-structures/array
+          - page: Hash Table
+            url: /data-structures/hash-table
+          - page: Linked List
+            url: /data-structures/linked-list
+          - page: Queue
+            url: /data-structures/queue
+          - page: Stack
+            url: /data-structures/stack
+          - page: Tree and Graphs
+            url: /data-structures/tree-graph
+      - page: Algorithms
+        subsubfolderitems:
+          - page: Array
+            url: /algorithms/array
+          - page: Bits Manipulation
+            url: /algorithms/bits-manipulation
+          - page: Dynamic Programming
+            url: /algorithms/dynamic-programming
+          - page: Linked List
+            url: /algorithms/linked-list
+          - page: Searching
+            url: /algorithms/searching
+          - page: Sorting
+            url: /algorithms/sorting
+          - page: Tree and Graphs
+            url: /algorithms/tree-graph
+      - page: Misc
+        subsubfolderitems:
+          - page: Databases 
+            url: /misc/databases
+          - page: Multithreading 
+            url: /misc/multithreading
+          - page: Others 
+            url: /misc/others
   - title: System Design
-    url: /system-design
+    subfolderitems:
+      - page: System design
+        url: /system-design
     

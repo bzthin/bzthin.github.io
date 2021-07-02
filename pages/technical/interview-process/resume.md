@@ -1,7 +1,7 @@
 ---
 layout: page_with_side_nav
 title: Resume
-permalink: /resume/
+permalink: /interview-process/resume
 ---
 
 # Resume
@@ -11,7 +11,7 @@ This page contains resume information.
 - Consider using LaTeX to simplify resume building. It saves time + its reusable + it will be well formatted. Spend your time brushing up your skills instead.
 - Example online LaTex editor like [Overleaf](https://overleaf.com).
 
-## Resume length
+## Length
 - Strongly advised to keep to 1 page. Unless you have over 10 years of experience.
 
 ## Employment
