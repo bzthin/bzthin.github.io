@@ -11,4 +11,7 @@ permalink: /misc/others/
 - TBD
 
 
-## 
+## STL useful algorithms
+- TBD c++ stl most useful algorithms
+- lower_bound
+- upper_boudn

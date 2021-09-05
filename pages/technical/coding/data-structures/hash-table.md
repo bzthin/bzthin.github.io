@@ -5,8 +5,12 @@ permalink: /data-structures/hash-table/
 ---
 
 # Hash Table
-Data structure used to map keys for values. 
-- C++ STL hash table: [`unordered_map`](http://www.cplusplus.com/reference/unordered_map/unordered_map/).
+C++ STL containers for hash tables
+- [`unordered_map`](http://www.cplusplus.com/reference/unordered_map/unordered_map/): Key value pairs
+- [`unordered_multimap`](https://www.cplusplus.com/reference/unordered_map/unordered_multimap/): Similar to unordered_map but allows multiple values to tie to 1 key.
+
+- [`unordered_set`](https://www.cplusplus.com/reference/unordered_set/unordered_set/): Stores unique elements in no particular order and runtime similar to a hash table.
+- [`unordered_multiset`](https://www.cplusplus.com/reference/unordered_set/unordered_multiset/): Similar to unordered_set, but allows multiple values
 
 ## General
 - We have an array as our storage. 

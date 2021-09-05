@@ -10,3 +10,10 @@ This page contains array information.
 
 ## Sliding Window
 TBD
+
+
+## Pattern search 
+TBD
+- KMP
+- Rolling hash
+

@@ -1,7 +1,7 @@
 ---
 layout: page_with_side_nav
-title: Linked List
-permalink: /data-structures/linked-list/
+title: List
+permalink: /data-structures/list/
 ---
 
 # Linked List

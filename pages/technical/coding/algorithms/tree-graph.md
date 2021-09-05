@@ -32,3 +32,7 @@ This page contains trees and graphs algorithms.
 - TBD (Distance, search, connectivity, cycle-detection etc)
 - 3 basic ways to represent graph in memory (object and pointers, matrix, and adjacency list) and their pros and cons
 - Basic graph traversal algorithms, BFS, DFS.
+
+
+### Disjoint set 
+- TBD

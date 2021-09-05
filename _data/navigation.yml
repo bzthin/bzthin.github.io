@@ -15,23 +15,27 @@ technical:
         url: /coding/coding-interview/
       - page: Complexity
         url: /complexity
-      - page: Math
-        url: /math
       - page: Data Structures
         url: /data-structures
         subsubfolderitems:
           - page: Array
             url: /data-structures/array
+          - page: Graph
+            url: /data-structures/graph
           - page: Hash Table
             url: /data-structures/hash-table
-          - page: Linked List
-            url: /data-structures/linked-list
+          - page: List
+            url: /data-structures/list
           - page: Queue
             url: /data-structures/queue
+          - page: Primitive Types
+            url: /data-structures/primitive
           - page: Stack
             url: /data-structures/stack
-          - page: Tree and Graphs
-            url: /data-structures/tree-graph
+          - page: String
+            url: /data-structures/string
+          - page: Tree
+            url: /data-structures/tree
       - page: Algorithms
         subsubfolderitems:
           - page: Array
@@ -52,10 +56,14 @@ technical:
         subsubfolderitems:
           - page: Databases 
             url: /misc/databases
+          - page: Math
+            url: /misc/math
           - page: Multithreading 
             url: /misc/multithreading
           - page: Others 
             url: /misc/others
+          - page: Competitive Programming 
+            url: /misc/competitive-programming
   - title: System Design
     subfolderitems:
       - page: System design

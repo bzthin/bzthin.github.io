@@ -26,3 +26,7 @@ sign bit to indicate that a negative value)
 - In arithmetic right shift, we shift the bits but retain the sign bit. So it results to 1101 1010, which is -38.  
 - In logical right shift, we shift the entire bits within retaining the sign bit. So it results in 0101 1010, which is 90.
 - In C++, whether if its arithmetic or logical shifts is implementation dependent. But usually its arithmetic.
+
+
+## Tips
+- x & ~(x-1) gives you the lowest bit that is 1

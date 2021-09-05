@@ -1,7 +1,7 @@
 ---
 layout: page_with_side_nav
 title: Math
-permalink: /math/
+permalink: /misc/math/
 ---
 
 # Math

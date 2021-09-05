@@ -6,7 +6,7 @@ permalink: /data-structures/stack/
 
 # Stack
 This page contains stack information. 
-- C++ STL fixed sized array: [`stack`](https://www.cplusplus.com/reference/stack/).
+- C++ STL stack: [`stack`](https://www.cplusplus.com/reference/stack/).
 
 ## General
 - Stack uses LIFO (last in first out) ordering.

@@ -6,12 +6,23 @@ permalink: /data-structures/queue/
 
 # Queue
 This page contains queue information. 
-- C++ STL fixed sized array: [`queue`](https://www.cplusplus.com/reference/queue/).
+- C++ STL queue: [`queue`](https://www.cplusplus.com/reference/queue/).
+- C++ STL heap: [`priority_queue`](https://www.cplusplus.com/reference/queue/priority_queue/)
+- C++ STL double ended queue: [`deque`](http://www.cplusplus.com/reference/deque/deque/)
 
-## General
+## Queue
 - Queue uses FIFO (first in first out) ordering.
 - In C++, default container it uses is `deque` to achieve LIFO.
 - Common operations: push, pop, front, back.
+
+
+## Priority_queue
+- C++ priority queue represents a heap data structure created with vector<T> by default.
+- Default is max heap. Change to min heap by using std::greater<T> comparator.
+- Use strict weak ordering criterion to compare.
+- The container used should have random access iterators and support the following operations: empty() size() front() push_back() pop_back(). 
+- Common operations: push, pop, top.
+
 
 ## Deque
 - C++ double ended queue

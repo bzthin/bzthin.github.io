@@ -8,10 +8,10 @@ permalink: /coding/coding-interview/
 This page contains coding interview information. 
 
 ## Steps to solving coding problems
-- Gather requirements: 
+- Gather requirements/Clarify the question: 
   - Listen to the interviewer question. 
-  - Ask questions to gather requirements.
-- Use examples: 
+  - Ask questions to gather requirements and clarify to understand the question.
+- Use concrete examples: 
   - Create examples to the question to verify understanding of their input and output. 
   - Try to have specific and sufficiently large example to cover most cases.
 - Brute force: 
@@ -20,7 +20,8 @@ This page contains coding interview information.
 - Optimize: 
   - Optimize brute force solution 
   - Explain time complexity and space complexity of how is the optimized method better.
-- Walk through: 
+  - If stuck, try to apply patterns or use different data structures.
+- Walkthrough: 
   - Walk through optimized solution approach in details with an example to ensure it fits the requirements, solves the problem and covered all edge cases. 
 - Implement: 
   - Implement the code. Remember to make your code modular, clean and includes error checks.
@@ -30,27 +31,3 @@ This page contains coding interview information.
   - Go through the code first, line by line to verify concept, check for errors, etc.
   - Test the code with a small example.
   - Test the code with special cases like empty array etc.
-
-## Core data structures and algorithms. 
-Consider implementing these from scratch to really understand them.
-- Data Structures  
-  - Linked Lists 
-  - Trees, Tries, & Graphs  
-  - Stacks & Queues  
-  - Heaps 
-  - Vectors I ArrayLists  
-  - Hash Tables
-
-- Algorithms
-  - Breadth-First Search
-  - Depth-First Search
-  - Binary Search
-  - Merge Sort
-  - QuickSort
-
-- Concepts
-  - Bit Manipulation
-  - Memory (Stack vs. Heap)
-  - Recursion
-  - Dynamic Programming
-  - Big O Time & Space
