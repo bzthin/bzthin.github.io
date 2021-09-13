@@ -47,7 +47,7 @@ int strstr(string str, string sub)
         }
         else
         {
-            j == 0 ? j = lps[j-1] : ++i;
+            j ? j = lps[j-1] : ++i;
         }
     }
     
