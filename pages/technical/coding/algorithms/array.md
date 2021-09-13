@@ -47,14 +47,7 @@ int strstr(string str, string sub)
         }
         else
         {
-            if (j == 0)
-            {
-                ++i;
-            }
-            else
-            {
-                j = lps[j-1];
-            }
+            j == 0 ? j = lps[j-1] : ++i;
         }
     }
     
