@@ -1,11 +1,11 @@
 ---
 layout: page_with_side_nav
-title: Trees and Graphs
-permalink: /algorithms/tree-graph/
+title: Graphs
+permalink: /algorithms/tree/
 ---
 
-# Trees and Graphs
-This page contains trees and graphs algorithms. 
+# Trees
+This page contains trees algorithms. 
 
 ## Binary tree traversal
 - In order (left, current, right)
@@ -17,6 +17,11 @@ This page contains trees and graphs algorithms.
 - Imagine going deep into one branch before exploring next.
 - If data structure a graph, need to store visited nodes to not revisit them.
 
+### Iterative deepening depth-first search
+- Do DFS with iterative depth.
+- E.g. DFS with 1 depth, DFS with 2 depth.
+- IDDFS combines depth-first search’s space-efficiency and breadth-first search’s fast search (for nodes closer to root). 
+
 ## Breath First Search
 - Start at root and explore each connecting child before going to their children
 - Imagine exploring levels by levels of nodes.
@@ -27,12 +32,18 @@ This page contains trees and graphs algorithms.
 - Runs BFS from source and destination to reduce the search space. 
 - When their searches collides, we have found path.
 
-
-### Graph algorithms (TBD) 
-- TBD (Distance, search, connectivity, cycle-detection etc)
-- 3 basic ways to represent graph in memory (object and pointers, matrix, and adjacency list) and their pros and cons
-- Basic graph traversal algorithms, BFS, DFS.
+## Iterative DFS and BFS
+- TBD (DFS iterative pre, in, post methods)
 
 
-### Disjoint set 
+## Disjoint set 
 - TBD
+
+## Interval tree
+- TBD
+
+
+## Backtracking
+- Algorithm for finding all (or some) solutions to some computational problems which incrementally builds 
+candidates to the solution and abandons a candidate ("backtracks") a
+s soon as it determines that the candidate cannot lead to a valid solution.

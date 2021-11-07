@@ -26,9 +26,16 @@ This page contains useful C++ STL helpful functions information.
 - lower_bound
 - upper_bound
 - binary_search
+- set_intersection
 
 - min_element
 - max_element
+
+- plus
+- minus
+- multiplies
+- divides
+- function
 
 
 ## Others

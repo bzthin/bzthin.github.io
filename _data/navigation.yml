@@ -44,14 +44,16 @@ technical:
             url: /algorithms/bits-manipulation
           - page: Dynamic Programming
             url: /algorithms/dynamic-programming
+          - page: Graph
+            url: /algorithms/graph
           - page: Linked List
             url: /algorithms/linked-list
           - page: Searching
             url: /algorithms/searching
           - page: Sorting
             url: /algorithms/sorting
-          - page: Tree and Graphs
-            url: /algorithms/tree-graph
+          - page: Tree
+            url: /algorithms/tree
       - page: Misc
         subsubfolderitems:
           - page: Databases 

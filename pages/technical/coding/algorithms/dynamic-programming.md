@@ -15,3 +15,10 @@ permalink: /algorithms/dynamic-programming/
 ## Recursive vs Iteration solution
 - Recursive solution is usually easier to understand and work with. However, they can be very space inefficient.
 - Iterative solution might make the code way more complex, but would be more space efficient.  
+
+## Identifiable Patterns 
+- 0/1 Knapsack
+- Unbounded Knapsack
+- Shortest Path (eg: Unique Paths I/II)
+- Fibonacci Sequence (eg: House Thief, Jump Game)
+- Longest Common Substring/Subsequeunce
