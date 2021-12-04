@@ -15,6 +15,7 @@ This page contains useful C++ STL helpful functions information.
 - swap
 - fill
 - for_each
+- partial_sort
 - remove
 - rotate
 - unique

@@ -10,7 +10,7 @@ This page contains array information.
 - C++ STL dynamic sized array: [`vector`](http://www.cplusplus.com/reference/vector/vector/).
 
 ## Fixed size array
-- Fixed sized normal arrays. Nothing much to highlight...
+- Fixed sized normal arrays, fixed capacity.
 
 ## Dynamic sized array
 - Vectors are allocated a specific capacity at the beginning.

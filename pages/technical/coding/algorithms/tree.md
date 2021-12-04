@@ -36,8 +36,6 @@ This page contains trees algorithms.
 - TBD (DFS iterative pre, in, post methods)
 
 
-## Disjoint set 
-- TBD
 
 ## Interval tree
 - TBD

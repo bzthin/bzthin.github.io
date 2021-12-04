@@ -22,3 +22,21 @@ permalink: /algorithms/dynamic-programming/
 - Shortest Path (eg: Unique Paths I/II)
 - Fibonacci Sequence (eg: House Thief, Jump Game)
 - Longest Common Substring/Subsequeunce
+
+
+## Framework for Dynamic Programming problems
+- Define state. A state is a set of variables that can sufficiently describe a scenario. These variables
+are called state variables.
+1. A function or data structure that will compute/contain the answer to the problem for every given state.
+2. A recurrence relation to transition between states.
+3. Base cases, so that our recurrence relation doesn't go on infinitely.
+
+### Steps to convert top-down into bottom-up
+1. Start with a completed top-down implementation.
+2. Initialize an array dp that is sized according to your state variables.
+3. Set your base cases, same as the ones you are using in your top-down function. 
+4. Write a for-loop(s) that iterate over your state variables. 
+5. Each iteration of the inner-most loop represents a given state, and is equivalent to a function 
+call to the same state in top-down. Copy the logic from your function into the for-loop and change 
+the function calls to accessing your array. 
+

@@ -19,3 +19,13 @@ This page contains Math information. Here are some common math that is sometimes
 ### Combination
 - Combination: n choose k = n! / k!(n-k)!
 
+## Linear Algebra
+### Cross product
+TBD
+
+### Dot product
+TBD
+
+
+## Greatest common divisor
+TBD
