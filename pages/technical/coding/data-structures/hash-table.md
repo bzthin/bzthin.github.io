@@ -10,16 +10,15 @@ C++ STL containers for hash tables
 - [`unordered_multimap`](https://www.cplusplus.com/reference/unordered_map/unordered_multimap/): Similar to unordered_map but allows multiple values to tie to 1 key.
 
 - [`unordered_set`](https://www.cplusplus.com/reference/unordered_set/unordered_set/): Stores unique elements in no particular order and runtime similar to a hash table.
-- [`unordered_multiset`](https://www.cplusplus.com/reference/unordered_set/unordered_multiset/): Similar to unordered_set, but allows multiple values
+- [`unordered_multiset`](https://www.cplusplus.com/reference/unordered_set/unordered_multiset/): Similar to unordered_set, but allows duplicated keys
 
 ## General
-- We have an array as our storage. 
-- A hash function is applied on to a key to get a hash code. 
-- This hash code is used to map to an index in an array.
-- We store the value in that index for look up in future.
+- Hash tables use a vector to store the keys.
+- A hash function is applied on each key to get a hash value. 
+- The hash table uses this hash value to map to an index in the vector and organize its elements internally, speeding up the process of locating individual elements.
 
 ## Collision handling
-Its possible our hash code maps different keys to the same index in the array. Some collision handling techniques are,
+It is possible that our hash function maps different keys to the same index in the vector. Some collision handling techniques are,
 
 ### Chaining
 - Make each element in the array a linkedlist instead. 
