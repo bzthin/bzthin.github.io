@@ -4,15 +4,11 @@ title: Primitive Types
 permalink: /data-structures/primitive/
 ---
 
-# TBD
-Primitive types - know how int, char, double, etc are represented in memory and the primitive operations on them.
-Operations on them (bitwise operators, comparison, etc)
-
 # Primitive
 This page contains primitive information
 
 ## Types
-Here are the basic types and their typical size. (Compiler dependent)
+Here are c++ basic types and their typical size. (Compiler dependent)
 
 | Type               | Bytes  |
 |:-------------------|:-------|
@@ -30,8 +26,7 @@ Here are the basic types and their typical size. (Compiler dependent)
 
 
 ## Operator precedence
-- All operations in C++ have a precedence to follow. 
-- [C++ operation precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
+- All operations in C++ have a precedence to follow. ([C++ operation precedence](https://en.cppreference.com/w/cpp/language/operator_precedence))
 
 ## Bit operations
 - `&` (bitwise AND)

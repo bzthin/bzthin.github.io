@@ -10,5 +10,5 @@ This page contains stack information.
 
 ## General
 - Stack uses LIFO (last in first out) ordering.
-- In C++, default container it uses is `deque` to achieve LIFO.
+- By default, uses `deque` as its container to achieve LIFO.
 - Common operations: push, pop, top.

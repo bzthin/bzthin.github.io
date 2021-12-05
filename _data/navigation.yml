@@ -32,8 +32,6 @@ technical:
             url: /data-structures/primitive
           - page: Stack
             url: /data-structures/stack
-          - page: String
-            url: /data-structures/string
           - page: Tree
             url: /data-structures/tree
       - page: Algorithms

@@ -10,16 +10,15 @@ This page contains queue information.
 - C++ STL heap: [`priority_queue`](https://www.cplusplus.com/reference/queue/priority_queue/)
 - C++ STL double ended queue: [`deque`](http://www.cplusplus.com/reference/deque/deque/)
 
-## Queue
+## General  
 - Queue uses FIFO (first in first out) ordering.
-- In C++, default container it uses is `deque` to achieve LIFO.
+- In C++, queue's default container  is a `deque` to achieve LIFO.
 - Common operations: push, pop, front, back.
 
 
 ## Priority_queue
 - C++ priority queue represents a heap data structure created with vector<T> by default.
-- Default is max heap. Change to min heap by using std::greater<T> comparator.
-- Use strict weak ordering criterion to compare.
+- Max heap by default. Uses strict weak ordering criterion as comparator. Thus we can change it to a min heap by using std::greater<T> as comparator.
 - The container used should have random access iterators and support the following operations: empty() size() front() push_back() pop_back(). 
 - Common operations: push, pop, top.
 

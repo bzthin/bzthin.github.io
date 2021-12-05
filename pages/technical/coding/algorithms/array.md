@@ -75,3 +75,7 @@ vector<int> CreateLPS(string str)
     return lps;
 }
 ```
+
+## String operations
+- Strtok
+- Split stringstream
