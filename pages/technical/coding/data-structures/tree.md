@@ -6,10 +6,11 @@ permalink: /data-structures/tree/
 
 # Trees 
 This page contains trees information. 
-- A tree consist of nodes. Each nodes has zero or more child nodes
+- A tree consist of nodes. Each nodes has zero or more child nodes.
+- Tree can also be considered as a acyclic graph.
 
 ## Node
-- Simple defintion of a node 
+- Simple defintion of a node for a N-ary tree.
 ```c++
 struct Node
 {
@@ -17,6 +18,7 @@ struct Node
     vector<Node*> children;
 };
 ```
+<br>
 
 ## Binary tree
 - A tree where each node has up to two children.
@@ -41,22 +43,15 @@ struct Node
 - Insert: Insert new element at the tree rightmost bottom. Then bubble up to find its placing.
 - Extract Min/Max: Extract the top, swap with last element in the tree and bubble down to find its placing. Choose left or right nodes yourself.
 
+<br>
+
 ## Tries (Prefix trees)
 - It is a n-ary tree where characters are stored in each node.
 - Its leaf nodes are often '*' which is used to indicate a completed word.
 - Often used for quick prefix lookup
 
-## Disjoint-set data structure 
-- Also called union-find data structure
-- Data structure to collect a collection of disjoint(non-overlapping) sets.
-- Operations:
-  - MakeSet: Adds a new element which is placed into a new set containing only that element.
-  - Find: Follows the chain of parent points to find the root of the set.
-  - Merge: Merge two disjoint sets into one.
-- Complexity for find and merge can be near constant amortized time by doing these optimizations
-  - Find: Flatten the tree by redirectly child nodes to point directly to the parent each time.
-  - Merge: Merge by size or rank, where the "smaller" set will merge to the "larger" set.
-  
+<br>
+
 ## Other types of trees 
 ### Self balancing binary search trees
 - AVL Tree:  

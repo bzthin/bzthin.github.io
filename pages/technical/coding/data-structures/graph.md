@@ -38,8 +38,6 @@ This page contains graph information.
   - Union by rank: We can optimize the two methods by selecting our parent node during union by rank. (Height of each vertex). The idea is merge the shorter tree under the taller tree to reduce height.
   - Path compression: We can also optimize by compressing each node path to parent node. After a find operation, update the parent node of all traversed elements to directly the parent node to eliminate traversal in future.
 - Code:
-
-
 ```c++
 class UnionFind {
 public:
