@@ -42,6 +42,13 @@ If there are no more edges, continue with non visited set.
 - We take the starting point u as the center and gradually expand outward while updating the “shortest path” to reach other vertices.
 - “Dijkstra's Algorithm” uses a “greedy approach”. Each step selects the “minimum weight” from the currently reached vertices to find the “shortest path” to other vertices.
 
+### AStar algorithm
+- TBD
+
 ### Bellman-Ford algorithm
 - Solve the “single source shortest path” problem in graphs with negative weights.
 - 
+
+
+## Floyd-Warshall Algorithm
+- TBD
