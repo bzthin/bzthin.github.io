@@ -5,19 +5,19 @@ permalink: /algorithms/array/
 ---
 
 # Array
-This page contains array algorithm information. 
+This page contains algorithms for array kind of data structure. 
 
+## Two pointers
+- Uses two pointers to point to different locations of the array.
+- Could be from both ends, from middle or slow and fast pointers etc.
 
-## Techniques TBD
-- Two pointers
-- Sliding window
-- Circular array
+## Sliding window
+- A window (subarray) that expands or contracts based on condition.
+- Iterable through the array. 
 
-
-## Pattern search TBD
-- KMP (string)
-- Rolling hash
-
+## Circular array
+- Last element next to first element of array.
+- Can be used to create queues.
 
 ## Knuth-Morris-Pratt (KMP) Algorithm
 - Search substring in string efficiently.
@@ -27,7 +27,7 @@ This page contains array algorithm information.
    - When there is a mismatch, use lps index to move back to last recurring pattern index.
 - Code:
 ```c++
-int strstr(string str, string sub)
+int KMP(string str, string sub)
 {
     if (sub.empty())
     {
@@ -77,5 +77,16 @@ vector<int> CreateLPS(string str)
 ```
 
 ## String operations
-- Strtok
-- Split stringstream
+- Splitting of string with istringstream
+```c++
+vector<string> SplitStr(string input) {
+    istringstream iss(input);
+    string token;
+    vector<string> res;
+    while(std::getline(ss, token, ',') { // or iss >> token if using space as delimiter)
+        res.push_back(token);
+    }
+    return res;
+}
+```
+
