@@ -9,7 +9,7 @@ permalink: /algorithms/bits-manipulation/
 ## Bitwise operations
 - NOT: ~
 - AND: &
-- OR: \|
+- OR: |
 - XOR: ^
 - Left Shift: <<
 - Right Shift: >>

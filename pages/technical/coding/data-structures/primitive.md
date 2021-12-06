@@ -27,11 +27,3 @@ Here are c++ basic types and their typical size. (Compiler dependent)
 
 ## Operator precedence
 - All operations in C++ have a precedence to follow. ([C++ operation precedence](https://en.cppreference.com/w/cpp/language/operator_precedence))
-
-## Bit operations
-- `&` (bitwise AND)
-- `|` (bitwise OR)
-- `^` (bitwise XOR)
-- `<<` (bitwise left shift)
-- `>>` (bitwise right shift) (Undefined for negative number)
-- `~` (bitwise NOT)
