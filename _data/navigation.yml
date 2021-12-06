@@ -46,8 +46,6 @@ technical:
             url: /algorithms/graph
           - page: Linked List
             url: /algorithms/linked-list
-          - page: Searching
-            url: /algorithms/searching
           - page: Sorting
             url: /algorithms/sorting
           - page: Tree
