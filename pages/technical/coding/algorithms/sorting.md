@@ -65,7 +65,7 @@ Each bucket is then sorted individually, either using a different sorting algori
 TBD
 
 
-### Topological sort
+## Topological sort
 - Kahn's algorithm, linear method. 
   - Time complexity: O(V + E) where V is number of vertices and E is number of edges
   - Space complexity: O(V + E)
