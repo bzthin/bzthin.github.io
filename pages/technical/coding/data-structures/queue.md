@@ -10,7 +10,7 @@ This page contains queue information.
 - C++ STL heap: [`priority_queue`](https://www.cplusplus.com/reference/queue/priority_queue/)
 - C++ STL double ended queue: [`deque`](http://www.cplusplus.com/reference/deque/deque/)
 
-## General  
+## Queue  
 - Queue uses FIFO (first in first out) ordering.
 - In C++, queue's default container  is a `deque` to achieve LIFO.
 - Common operations: push, pop, front, back.

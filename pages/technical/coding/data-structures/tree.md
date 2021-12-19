@@ -23,6 +23,10 @@ struct Node
 ## Binary tree
 - A tree where each node has up to two children.
 - Binary search tree is when every node in the tree fits a specific ordering property. 
+- Can also be represented by a vector. 
+  - Get left child: 2*i + 1
+  - Get right child: 2*i + 2
+  - Get parent: (i-1) / 2
 
 ### Balanced tree
 - Balanced tree means left and right subtree are more or less the same. (I.e Depth difference is <= 1)

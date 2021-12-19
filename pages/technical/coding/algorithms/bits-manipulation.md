@@ -25,7 +25,8 @@ sign bit to indicate that a negative value)
 - Imagine a negative number like 1011 0101, which is -75, when we do an right shift by 2,
 - In arithmetic right shift, we shift the bits but retain the sign bit. So it results to 1101 1010, which is -38.  
 - In logical right shift, we shift the entire bits within retaining the sign bit. So it results in 0101 1010, which is 90.
-- In C++, whether if its arithmetic or logical shifts is implementation dependent. But usually its arithmetic.
+- In C++, whether if its arithmetic or logical shifts is implementation dependent. 
+Usually its arithmetic, but its better to think that right shift on negative numbers are undefined.
 
 
 ## Tips

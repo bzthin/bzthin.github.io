@@ -9,11 +9,11 @@ permalink: /algorithms/dynamic-programming/
 - Approaches can be top down or bottom up.
 
 ## Framework for Dynamic Programming problems
-- Define state. A state is a set of variables that can sufficiently describe a scenario. These variables
+1. Define state. A state is a set of variables that can sufficiently describe a scenario. These variables
 are called state variables.
-1. A function or data structure that will compute/contain the answer to the problem for every given state.
-2. A recurrence relation to transition between states.
-3. Base cases, so that our recurrence relation doesn't go on infinitely.
+2. A function or data structure that will compute/contain the answer to the problem for every given state.
+3. A recurrence relation to transition between states.
+4. Base cases, so that our recurrence relation doesn't go on infinitely.
 
 ### Steps to convert top-down into bottom-up
 1. Start with a completed top-down implementation.

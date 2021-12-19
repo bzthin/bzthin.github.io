@@ -37,40 +37,54 @@ This page contains graph information.
 - Optimizations
   - Union by rank: We can optimize the two methods by selecting our parent node during union by rank. (Height of each vertex). The idea is merge the shorter tree under the taller tree to reduce height.
   - Path compression: We can also optimize by compressing each node path to parent node. After a find operation, update the parent node of all traversed elements to directly the parent node to eliminate traversal in future.
-- Code:
+- Code (Quick Union with optimizations):
+
 ```c++
-class UnionFind {
+class UnionFind 
+{
 public:
-    UnionFind(int sz) : root(sz), rank(sz) {
-        for (int i = 0; i < sz; i++) {
+    UnionFind(int sz) : root(sz), rank(sz) 
+    {
+        for (int i = 0; i < sz; i++) 
+        {
             root[i] = i;
             rank[i] = 1;
         }
     }
 
-    int Find(int x) {
-        if (x == root[x]) {
+    int Find(int x) 
+    {
+        if (x == root[x]) 
+        {
             return x;
         }
         return root[x] = Find(root[x]);
     }
 
-    void UnionSet(int x, int y) {
+    void UnionSet(int x, int y) 
+    {
         int rootX = Find(x);
         int rootY = Find(y);
-        if (rootX != rootY) {
-            if (rank[rootX] > rank[rootY]) {
+        if (rootX != rootY) 
+        {
+            if (rank[rootX] > rank[rootY]) 
+            {
                 root[rootY] = rootX;
-            } else if (rank[rootX] < rank[rootY]) {
+            } 
+            else if (rank[rootX] < rank[rootY]) 
+            {
                 root[rootX] = rootY;
-            } else {
+            } 
+            else 
+            {
                 root[rootY] = rootX;
                 rank[rootX] += 1;
             }
         }
     }
 
-    bool connected(int x, int y) {
+    bool connected(int x, int y) 
+    {
         return Find(x) == Find(y);
     }
 

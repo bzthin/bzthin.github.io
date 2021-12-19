@@ -18,6 +18,7 @@ This page contains algorithms for array kind of data structure.
   - If the target value is less than the element, the search continues in the lower half of the array. 
   - If the target value is greater than the element, the search continues in the upper half of the array. 
   - By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration.
+- Terminating condition can be `lo<=high` or `lo<high` where the latter is for using the value `lo` after while loop instead of returning in the while loop.
 
 ## Two pointers
 - Uses two pointers to point to different locations of the array.
@@ -34,23 +35,16 @@ This page contains algorithms for array kind of data structure.
 ## Knuth-Morris-Pratt (KMP) Algorithm
 - Search substring in string efficiently.
 - Steps:
-  - Preprocess the substring pattern to generate an array of lps (longest proper prefix/suffi)
+  - Preprocess the substring pattern to generate an array of lps (longest proper prefix which is also suffix)
    - i.e `abcabcabcd` -> `0001231230` 
    - When there is a mismatch, use lps index to move back to last recurring pattern index.
 - Code:
+
 ```c++
 int KMP(string str, string sub)
 {
-    if (sub.empty())
-    {
-        return 0;
-    }
-    
     vector<int> lps = CreateLPS(sub);
-    
-    int i = 0;
-    int j = 0;
-    while (i < str.size() && j < sub.size())
+    for (int i=0, j=0; i < str.size() && j < sub.size())
     {
         if (str[i] == sub[j])
         {
@@ -62,7 +56,6 @@ int KMP(string str, string sub)
             j ? j = lps[j-1] : ++i;
         }
     }
-    
     return j == sub.size() ? i-j : -1;
 }
 
@@ -70,7 +63,6 @@ vector<int> CreateLPS(string str)
 {
     int n = str.size();
     vector<int> lps(n, 0);
-
     for (int i=0, j=1; j < n; ++j)
     {
         if (str[i] == str[j])
@@ -91,11 +83,13 @@ vector<int> CreateLPS(string str)
 ## String operations
 - Splitting of string with istringstream
 ```c++
-vector<string> SplitStr(string input) {
+vector<string> SplitStr(string input) 
+{
     istringstream iss(input);
     string token;
     vector<string> res;
-    while(std::getline(ss, token, ',') { // or iss >> token if using space as delimiter)
+    while(std::getline(ss, token, ',') // or iss >> token if using space as delimiter)
+    { 
         res.push_back(token);
     }
     return res;
