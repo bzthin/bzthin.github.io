@@ -138,7 +138,7 @@ vector<int> PostOrder(Node *root)
   - Create BST, where each node stores an interval (lo, hi)
   - Use left endpoint (lo) as BST "key".
   - Each node also store the maximum endpoint (hi) for that subtree
-- Pseudo code
+- Pseudocode to check intersection in interval tree
 
 ```
 Node x = root;

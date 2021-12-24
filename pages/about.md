@@ -11,6 +11,7 @@ This has always led to scambling back on old notes or books to find these inform
 Thus I have decided to create a place to store these information, and that is how this website came about.  
 
 Feel free to hit me up on [linkedin](https://www.linkedin.com/in/bzthin/).
+
 ## Resources
 ### Books
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/): Best book to start off. Also known as CTCI.
@@ -23,7 +24,14 @@ Feel free to hit me up on [linkedin](https://www.linkedin.com/in/bzthin/).
 - [Big O Cheat Sheet](https://www.bigocheatsheet.com/): Used to do quick reference
 
 ### System Design
-- [CheckCheckzz System Design List](https://github.com/checkcheckzz/system-design-interview): Contains tons of resources for system design practice.
+- Useful
+  - [Grokking the system design interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+  - [System Design Interview by Alex Xu](https://www.amazon.com/dp/B08B3FWYBX/)
+  - [System Design Primer](https://github.com/donnemartin/system-design-primer)
+  - [Designing Data-Intensive Applications](https://www.amazon.com/dp/B06XPJML5D): This goes way beyond interview level but is very useful even for day to day software engineering
+- Others
+  - [Facebook system design interview: 4 must watched videos](https://mlengineer.io/facebook-system-design-interview-4-must-watched-videos-212e07d4fbc2)
+  - [CheckCheckzz System Design List](https://github.com/checkcheckzz/system-design-interview): Contains tons of resources for system design practice.
 
 ### Misc
 - [Blind](https://www.teamblind.com/): Best anonymous forum to ask questions. Also consider their service "Rooftop Slushie". 
