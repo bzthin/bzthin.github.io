@@ -65,13 +65,53 @@ function Dijkstra(Graph, source):
 - Time complexity (with binary heap): O(V + ElogV)
 - Space complexity O(V)
 
+
 ### Bellman-Ford algorithm (Single)
 - Solve the “single source shortest path” problem in graphs with negative weights.
-- TBD
+- Will not work if there is a negative weight cycle.
+- Pesudocode:
+```
+function BellmanFord(list vertices, list edges, vertex source) is
+
+    // This implementation takes in a graph, represented as
+    // lists of vertices (represented as integers [0..n-1]) and edges,
+    // and fills two arrays (distance and predecessor) holding
+    // the shortest path from the source to each vertex
+
+    distance := list of size n
+    predecessor := list of size n
+
+    // Step 1: initialize graph
+    for each vertex v in vertices do
+
+        distance[v] := inf             // Initialize the distance to all vertices to infinity
+        predecessor[v] := null         // And having a null predecessor
+    
+    distance[source] := 0              // The distance from the source to itself is, of course, zero
+
+    // Step 2: relax edges repeatedly
+    
+    repeat |V|−1 times:
+         for each edge (u, v) with weight w in edges do
+             if distance[u] + w < distance[v] then
+                 distance[v] := distance[u] + w
+                 predecessor[v] := u
+
+    // Step 3: check for negative-weight cycles
+    for each edge (u, v) with weight w in edges do
+        if distance[u] + w < distance[v] then
+            error "Graph contains a negative-weight cycle"
+
+    return distance, predecessor
+```
+- Time Complexity: O(\|V\| * \|E\|)
+- Space Complexity: O(V) for storing distances  
+
 
 ### Floyd-Warshall Algorithm (Multi)
 - An algorithm to find shortest paths with all pairs of vertices in a directed weighted graph with positive or negative edge weights (but with no negative cycles) 
 - TBD
+
 
 ### AStar algorithm
 - A* is an informed search algorithm, or a best-first search, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost (least distance travelled, shortest time, etc.). It does this by maintaining a tree of paths originating at the start node and extending those paths one edge at a time until its termination criterion is satisfied.

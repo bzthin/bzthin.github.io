@@ -56,12 +56,10 @@ technical:
             url: /misc/databases
           - page: Math
             url: /misc/math
-          - page: Multithreading 
-            url: /misc/multithreading
-          - page: Others 
-            url: /misc/others
           - page: Competitive Programming 
             url: /misc/competitive-programming
+          - page: Others 
+            url: /misc/others
   - title: System Design
     subfolderitems:
       - page: System design

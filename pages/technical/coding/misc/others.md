@@ -16,5 +16,5 @@ permalink: /misc/others/
 - Locks? Mutex? Semaphore? Future?
 
 ## MapReduce
-- TBD
+- For system design?
 
