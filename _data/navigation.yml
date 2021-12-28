@@ -35,6 +35,7 @@ technical:
           - page: Tree
             url: /data-structures/tree
       - page: Algorithms
+        url: /algorithms
         subsubfolderitems:
           - page: Array
             url: /algorithms/array
