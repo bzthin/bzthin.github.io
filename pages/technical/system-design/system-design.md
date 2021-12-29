@@ -37,3 +37,10 @@ Usually no right answers and will be more discussion based. You should drive the
 - Availability and reliability 
 - Read heavy vs write heavy
 - Security
+
+
+## Requirements clarifications
+- Users/Customer
+- Scale (read and write)
+- Performance 
+- Cost

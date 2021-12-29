@@ -31,6 +31,7 @@ This page contains useful C++ STL helpful functions information.
 
 - min_element
 - max_element
+- iota
 
 - plus
 - minus
