@@ -61,7 +61,7 @@ public:
         return root[x] = Find(root[x]);
     }
 
-    void UnionSet(int x, int y) 
+    void Union(int x, int y) 
     {
         int rootX = Find(x);
         int rootY = Find(y);
@@ -83,10 +83,11 @@ public:
         }
     }
 
-    bool connected(int x, int y) 
+    bool IsConnected(int x, int y) 
     {
         return Find(x) == Find(y);
     }
+
 
 private:
     vector<int> root;
