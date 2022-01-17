@@ -36,7 +36,7 @@ This page contains algorithms for array kind of data structure.
 - Search substring in string efficiently.
 - Steps:
   - Preprocess the substring pattern to generate an array of lps (longest proper prefix which is also suffix)
-   - i.e `abcabcabcd` -> `0001231230` 
+   - i.e `abcabcabcd` -> `0001234560` 
    - When there is a mismatch, use lps index to move back to last recurring pattern index.
 - Code:
 
@@ -44,7 +44,9 @@ This page contains algorithms for array kind of data structure.
 int KMP(string str, string sub)
 {
     vector<int> lps = CreateLPS(sub);
-    for (int i=0, j=0; i < str.size() && j < sub.size())
+    int i = 0;
+    int j = 0;
+    while (i < str.size() && j < sub.size())
     {
         if (str[i] == sub[j])
         {

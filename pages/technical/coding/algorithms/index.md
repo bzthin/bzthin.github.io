@@ -5,34 +5,35 @@ permalink: /algorithms
 ---
 
 # Algorithms
-This page contains useful C++ STL helpful functions information. 
+This page contains useful/commonly used C++ STL helpful functions information. 
 - [C++ STL algorithms](https://www.cplusplus.com/reference/algorithm/)
 
-## C++ STL algorithms\
-
+## C++ STL algorithms
+<algorithm>
 - count
 - count_if
 - swap
 - fill
 - for_each
-- partial_sort
 - remove
 - rotate
 - unique
 - sort
-- stable sort
+- partial_sort
+- stable_sort
 - nth_element
 - transform
 
 - lower_bound
 - upper_bound
 - binary_search
-- set_intersection
+- set_intersection (require sorted ranges)
 
 - min_element
 - max_element
-- iota
 
+
+<functional>
 - plus
 - minus
 - multiplies
@@ -41,7 +42,16 @@ This page contains useful C++ STL helpful functions information.
 
 
 ## Others
-
+- iota
 
 ## Misc Algo
-- GCD
+- gcd (greatest common divisor)
+
+```c++
+int gcd(int a, int b)
+{
+    if (a == 0)
+        return b;
+    return gcd(b % a, a);
+}
+```
