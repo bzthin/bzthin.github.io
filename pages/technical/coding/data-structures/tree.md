@@ -50,7 +50,8 @@ struct Node
 <br>
 
 ## Tries (Prefix trees)
-- It is a n-ary tree where characters are stored in each node.
+- It is a n-ary tree where characters are stored in each node. 
+- In each node, the children can be stored as an array or hash table
 - Its leaf nodes are often '*' which is used to indicate a completed word.
 - Often used for quick prefix lookup
 
