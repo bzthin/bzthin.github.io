@@ -9,7 +9,7 @@ This page contains useful/commonly used C++ STL helpful functions information.
 - [C++ STL algorithms](https://www.cplusplus.com/reference/algorithm/)
 
 ## C++ STL algorithms
-<algorithm>
+algorithm
 - count
 - count_if
 - swap
@@ -33,7 +33,7 @@ This page contains useful/commonly used C++ STL helpful functions information.
 - max_element
 
 
-<functional>
+functional
 - plus
 - minus
 - multiplies
