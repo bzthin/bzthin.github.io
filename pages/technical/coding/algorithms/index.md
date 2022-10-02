@@ -1,8 +1,13 @@
 ---
-layout: page_with_side_nav
 title: Algorithms
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
 permalink: /algorithms
 ---
+
 
 # Algorithms
 This page contains useful/commonly used C++ STL helpful functions information. 

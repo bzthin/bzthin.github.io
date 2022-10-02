@@ -1,7 +1,11 @@
 ---
-layout: page_with_side_nav
 title: Dynamic Programming
-permalink: /algorithms/dynamic-programming/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /algorithms_dynamic-programming/
 ---
 
 # Dynamic programming 

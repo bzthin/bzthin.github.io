@@ -1,8 +1,13 @@
 ---
-layout: page_with_side_nav
 title: Primitive Types
-permalink: /data-structures/primitive/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /data-structures_primitive/
 ---
+
 
 # Primitive
 This page contains primitive information

@@ -1,7 +1,11 @@
 ---
-layout: page_with_side_nav
 title: Sorting
-permalink: /algorithms/sorting/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /algorithms_sorting/
 ---
 
 # Sorting

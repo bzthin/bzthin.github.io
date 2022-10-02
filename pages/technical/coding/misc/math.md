@@ -1,7 +1,11 @@
 ---
-layout: page_with_side_nav
 title: Math
-permalink: /misc/math/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /misc_math/
 ---
 
 # Math

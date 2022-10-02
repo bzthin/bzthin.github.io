@@ -1,8 +1,13 @@
 ---
-layout: page_with_side_nav
 title: Hash Table
-permalink: /data-structures/hash-table/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /data-structures_hash-table/
 ---
+
 
 # Hash Table
 C++ STL containers for hash tables

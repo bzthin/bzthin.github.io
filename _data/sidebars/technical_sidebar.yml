@@ -1,0 +1,134 @@
+entries:
+- title: sidebar
+  product: Jekyll Doc Theme
+  version: 6.0
+  folders:
+
+  - title: Interview Process
+    output: web, pdf
+    folderitems:
+    - title: Interview Lifecycle
+      url: /interview-process_lifecycle
+      output: web, pdf
+
+    - title: Resume
+      url: /interview-process_resume
+      output: web, pdf
+
+  - title: Behavioral
+    output: web, pdf
+    folderitems:
+    - title: Preparation
+      url: /behavioral
+      output: web, pdf
+
+  - title: Coding
+    output: web, pdf
+    folderitems:
+    - title: Coding Interview
+      url: /coding_coding-interview/
+      output: web, pdf
+
+    - title: Complexity
+      url: /complexity
+      output: web, pdf
+      
+      subfolders:
+      - title: Data Structures
+        output: web
+        subfolderitems:
+        - title: Data Structures
+          url: /data-structures
+          output: web, pdf
+
+        - title: Array
+          url: /data-structures_array
+          output: web, pdf
+
+        - title: Graph
+          url: /data-structures_graph
+          output: web, pdf
+
+        - title: Hash Table
+          url: /data-structures_hash-table
+          output: web, pdf
+
+        - title: List
+          url: /data-structures_list
+          output: web, pdf
+
+        - title: Queue
+          url: /data-structures_queue
+          output: web, pdf
+
+        - title: Primitive Types
+          url: /data-structures_primitive
+          output: web, pdf
+
+        - title: Stack
+          url: /data-structures_stack
+          output: web, pdf
+
+        - title: Tree
+          url: /data-structures_tree
+          output: web, pdf
+  
+      - title: Algorithms
+        output: web
+        subfolderitems:
+        - title: Algorithms
+          url: /algorithms
+          output: web, pdf
+
+        - title: Array
+          url: /algorithms_array
+          output: web, pdf
+
+        - title: Bits Manipulation
+          url: /algorithms_bits-manipulation
+          output: web, pdf
+
+        - title: Dynamic Programming
+          url: /algorithms_dynamic-programming
+          output: web, pdf
+
+        - title: Graph
+          url: /algorithms_graph
+          output: web, pdf
+
+        - title: Linked List
+          url: /algorithms_linked-list
+          output: web, pdf
+
+        - title: Sorting
+          url: /algorithms_sorting
+          output: web, pdf
+
+        - title: Tree
+          url: /algorithms_tree
+
+      - title: Misc
+        output: web
+        subfolderitems:
+        - title: Databases 
+          url: /misc_databases
+          output: web, pdf
+
+        - title: Math
+          url: /misc_math
+          output: web, pdf
+
+        - title: Competitive Programming 
+          url: /misc_competitive-programming
+          output: web, pdf
+
+        - title: Others 
+          url: /misc_others
+          output: web, pdf
+
+  - title: System Design
+    folderitems:
+    - title: System design
+      url: /system-design
+      output: web, pdf
+    

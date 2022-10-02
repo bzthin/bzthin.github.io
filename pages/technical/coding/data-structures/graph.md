@@ -1,7 +1,11 @@
 ---
-layout: page_with_side_nav
 title: Graphs
-permalink: /data-structures/graph/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /data-structures_graph/
 ---
 
 # Graph

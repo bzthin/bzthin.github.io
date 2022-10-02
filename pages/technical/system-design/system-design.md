@@ -1,8 +1,13 @@
 ---
-layout: page_with_side_nav
 title: System Design
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
 permalink: /system-design
 ---
+
 
 # System Design
 Usually no right answers and will be more discussion based. You should drive the conversation.

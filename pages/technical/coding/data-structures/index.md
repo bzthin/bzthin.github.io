@@ -1,6 +1,10 @@
 ---
-layout: page_with_side_nav
 title: Data Structures
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
 permalink: /data-structures
 ---
 

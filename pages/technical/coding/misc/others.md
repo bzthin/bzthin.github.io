@@ -1,7 +1,11 @@
 ---
-layout: page_with_side_nav
 title: Others
-permalink: /misc/others/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /misc_others/
 ---
 
 # Others

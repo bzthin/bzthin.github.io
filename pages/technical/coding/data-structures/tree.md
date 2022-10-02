@@ -1,7 +1,11 @@
 ---
-layout: page_with_side_nav
-title: Trees 
-permalink: /data-structures/tree/
+title: Trees
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /data-structures_tree/
 ---
 
 # Trees 

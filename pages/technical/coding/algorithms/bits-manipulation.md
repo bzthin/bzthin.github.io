@@ -1,7 +1,11 @@
 ---
-layout: page_with_side_nav
 title: Bits Manipulation
-permalink: /algorithms/bits-manipulation/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: 
+permalink: /algorithms_bits-manipulation/
 ---
 
 # Bits Manipulation

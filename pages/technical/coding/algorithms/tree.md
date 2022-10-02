@@ -1,7 +1,11 @@
 ---
-layout: page_with_side_nav
 title: Graphs
-permalink: /algorithms/tree/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /algorithms_tree/
 ---
 
 # Trees

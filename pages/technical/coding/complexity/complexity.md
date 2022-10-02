@@ -1,6 +1,10 @@
 ---
-layout: page_with_side_nav
 title: Big O Complexity
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
 permalink: /complexity/
 ---
 

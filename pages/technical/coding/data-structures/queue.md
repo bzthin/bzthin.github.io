@@ -1,7 +1,11 @@
 ---
-layout: page_with_side_nav
 title: Queue
-permalink: /data-structures/queue/
+tags: 
+keywords: 
+last_updated: Oct 2, 2022
+summary: 
+sidebar: technical_sidebar
+permalink: /data-structures_queue/
 ---
 
 # Queue
