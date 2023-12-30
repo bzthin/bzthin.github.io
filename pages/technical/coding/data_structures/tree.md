@@ -1,14 +1,10 @@
 ---
 title: Trees
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /data-structures_tree/
+permalink: /data_structures_tree
 ---
 
-# Trees 
+## General 
 This page contains trees information. 
 - A tree consist of nodes. Each nodes has zero or more child nodes.
 - Tree can also be considered as a acyclic graph.

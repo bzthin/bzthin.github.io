@@ -43,30 +43,24 @@ entries:
     - title: Graph
       url: /data_structures_graph
       output: web
-
-  #       - title: Hash Table
-  #         url: /data-structures_hash-table
-  #         output: web
-
-  #       - title: List
-  #         url: /data-structures_list
-  #         output: web
-
-  #       - title: Queue
-  #         url: /data-structures_queue
-  #         output: web
-
-  #       - title: Primitive Types
-  #         url: /data-structures_primitive
-  #         output: web
-
-  #       - title: Stack
-  #         url: /data-structures_stack
-  #         output: web
-
-  #       - title: Tree
-  #         url: /data-structures_tree
-  #         output: web
+    - title: Hash Table
+      url: /data_structures_hashtable
+      output: web
+    - title: List
+      url: /data_structures_list
+      output: web
+    - title: Queue
+      url: /data_structures_queue
+      output: web
+    - title: Primitive Types
+      url: /data_structures_primitive
+      output: web
+    - title: Stack
+      url: /data_structures_stack
+      output: web
+    - title: Tree
+      url: /data_structures_tree
+      output: web
   
   #     - title: Algorithms
   #       output: web

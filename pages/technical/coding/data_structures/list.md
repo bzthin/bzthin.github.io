@@ -1,19 +1,14 @@
 ---
 title: List
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /data-structures_list/
+permalink: /data_structures_list
 ---
 
-# Linked List
-This page contains linked list information. 
+## C++ STL
 - C++ STL singly linked list: [`forward_list`](http://www.cplusplus.com/reference/forward_list/forward_list/)
 - C++ STL doubly linked list: [`list`](http://www.cplusplus.com/reference/list/list/)
 
-# General
+## General
 - Data structure that represents a sequence of nodes.
 - Each node has its own memory. Thus accessing all elements in linked list will be slower than vector as it jumps around in memory.  
 

@@ -1,15 +1,10 @@
 ---
 title: Hash Table
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /data-structures_hash-table/
+permalink: /data_structures_hashtable
 ---
 
-
-# Hash Table
+## C++ STL
 C++ STL containers for hash tables
 - [`unordered_map`](http://www.cplusplus.com/reference/unordered_map/unordered_map/): Key value pairs
 - [`unordered_multimap`](https://www.cplusplus.com/reference/unordered_map/unordered_multimap/): Similar to unordered_map but allows multiple values to tie to 1 key.

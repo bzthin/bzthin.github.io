@@ -4,7 +4,7 @@ sidebar: technical_sidebar
 permalink: /data_structures_array
 ---
 
-## C++ Array
+## C++ STL
 - C++ STL fixed sized array: [`array`](http://www.cplusplus.com/reference/array/array/).
 - C++ STL dynamic sized array: [`vector`](http://www.cplusplus.com/reference/vector/vector/).
 - C++ string: [string](https://www.cplusplus.com/reference/string/string/)

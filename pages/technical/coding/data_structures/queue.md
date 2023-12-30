@@ -1,14 +1,10 @@
 ---
 title: Queue
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /data-structures_queue/
+permalink: /data_structures_queue
 ---
 
-# Queue
+## C++ STL
 This page contains queue information. 
 - C++ STL queue: [`queue`](https://www.cplusplus.com/reference/queue/).
 - C++ STL heap: [`priority_queue`](https://www.cplusplus.com/reference/queue/priority_queue/)
