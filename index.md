@@ -1,5 +1,5 @@
 ---
-title: "BZ Coding Interview Handbook"
+title: "BZThin Coding Interview Handbook"
 sidebar: technical_sidebar
 permalink: index.html
 ---
