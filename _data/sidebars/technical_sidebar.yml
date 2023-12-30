@@ -28,7 +28,7 @@ entries:
       url: /coding_interview
       output: web
     - title: Complexity
-      url: /complexity
+      url: /big_o_complexity
       output: web
 
   - title: Data Structures
@@ -37,19 +37,9 @@ entries:
     - title: Data Structures
       url: /data_structures
       output: web
-
-      
-      # subfolders:
-      # - title: Data Structures
-      #   output: web
-      #   subfolderitems:
-      #   - title: Data Structures
-      #     url: /data_structures
-      #     output: web
-
-  #       - title: Array
-  #         url: /data-structures_array
-  #         output: web
+    - title: Array
+      url: /data_structures_array
+      output: web
 
   #       - title: Graph
   #         url: /data-structures_graph

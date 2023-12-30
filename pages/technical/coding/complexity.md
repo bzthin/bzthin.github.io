@@ -1,7 +1,7 @@
 ---
 title: Big O Complexity
 sidebar: technical_sidebar
-permalink: /complexity
+permalink: /big_o_complexity
 ---
 
 ## Time Complexity

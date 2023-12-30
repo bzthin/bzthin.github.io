@@ -1,11 +1,7 @@
 ---
 title: Array
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /data-structures_array/
+permalink: /data_structures_array
 ---
 
 # Array
