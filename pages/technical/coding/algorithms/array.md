@@ -1,15 +1,8 @@
 ---
 title: Array
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /algorithms_array/
+permalink: /algorithms_array2
 ---
-
-# Array
-This page contains algorithms for array kind of data structure. 
 
 ## Binary Search
 - Runtime Average: O(log(n))

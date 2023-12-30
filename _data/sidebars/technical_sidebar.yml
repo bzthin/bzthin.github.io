@@ -24,6 +24,7 @@ entries:
   - title: Coding
     output: web
     folderitems:
+
     - title: Interview
       url: /coding_interview
       output: web
@@ -34,6 +35,7 @@ entries:
   - title: Data Structures
     output: web
     folderitems:
+
     - title: Data Structures
       url: /data_structures
       output: web
@@ -62,20 +64,19 @@ entries:
       url: /data_structures_tree
       output: web
   
-  #     - title: Algorithms
-  #       output: web
-  #       subfolderitems:
-  #       - title: Algorithms
-  #         url: /algorithms
-  #         output: web
+  - title: Algorithms
+    output: web
+    folderitems:
 
-  #       - title: Array
-  #         url: /algorithms_array
-  #         output: web
-
-  #       - title: Bits Manipulation
-  #         url: /algorithms_bits-manipulation
-  #         output: web
+    - title: Algorithms
+      url: /algorithms
+      output: web
+    - title: Array
+      url: /algorithms_array2
+      output: web
+    - title: Bits Manipulation
+      url: /algorithms_bits_manipulation
+      output: web
 
   #       - title: Dynamic Programming
   #         url: /algorithms_dynamic-programming

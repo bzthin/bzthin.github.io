@@ -1,15 +1,11 @@
 ---
 title: Algorithms
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
 permalink: /algorithms
 ---
 
 
-# Algorithms
+## Algorithms
 This page contains useful/commonly used C++ STL helpful functions information. 
 - [C++ STL algorithms](https://www.cplusplus.com/reference/algorithm/)
 
