@@ -26,13 +26,13 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: BusyFolio
+topnav_title: BZ
 # this appears on the top navigation bar next to the home button
 
-site_title: BusyFolio Coding Interview Handbook
+site_title: BZ Coding Interview Handbook
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Copyright 2023 BusyFolio
+company_name: Copyright 2023 Thin Bing Zong
 # this appears in the footer
 
 github_editme_path:

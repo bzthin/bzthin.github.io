@@ -1,5 +1,5 @@
 ---
-title: "BusyFolio Coding Interview Handbook"
+title: "BZ Coding Interview Handbook"
 sidebar: technical_sidebar
 permalink: index.html
 ---

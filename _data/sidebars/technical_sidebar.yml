@@ -116,9 +116,11 @@ entries:
   #         url: /misc_others
   #         output: web
 
-  # - title: System Design
-  #   folderitems:
-  #   - title: System design
-  #     url: /system-design
-  #     output: web
+  - title: System Design
+    output: web
+    folderitems:
+    
+    - title: System design
+      url: /system_design
+      output: web
     
