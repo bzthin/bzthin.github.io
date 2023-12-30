@@ -1,27 +1,18 @@
 ---
 title: Graphs
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /data-structures_graph/
+permalink: /data_structures_graph
 ---
 
-# Graph
-This page contains graph information.
-- A graph is a non-linear data structure consisting of nodes(vertices) and edges.
-
-
 ## Introduction
-- A graph contains vertices and edges.
+- A graph is a non-linear data structure consisting of nodes(vertices) and edges.
 - Graphs can be directed or undirected.
 - Each edge could be assigned a weight/cost.
 - Graphs could have multiple isolated sub graphs.
 - Graphs can also have cycles. An acyclic graph is one without cycles.
 - Degree of vertex means number of edges connecting the vertex.
-  - In degree(incoming edges),  out degree(outgoing edges) 
-
+  - In degree(incoming edges)
+  - Out degree(outgoing edges) 
 
 ## Data Structure Representation
 ### Adjacency List
@@ -29,7 +20,6 @@ This page contains graph information.
 
 ### Adjacency matrix
 - It is a NxN boolean matrix where each cell(matrix[i][j]) represents if there is an edge from node i to j.
-
 
 ## Disjoint set 
 - Also known as the union-find data structure. Used to check if two vertices are connected. 

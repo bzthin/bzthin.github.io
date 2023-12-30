@@ -40,10 +40,9 @@ entries:
     - title: Array
       url: /data_structures_array
       output: web
-
-  #       - title: Graph
-  #         url: /data-structures_graph
-  #         output: web
+    - title: Graph
+      url: /data_structures_graph
+      output: web
 
   #       - title: Hash Table
   #         url: /data-structures_hash-table
