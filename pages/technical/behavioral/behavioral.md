@@ -1,15 +1,8 @@
 ---
 title: Behavioral
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
 permalink: /behavioral
 ---
-
-# Behavioral
-This page contains behavioral questions information.
 
 ## Preparation
 - Behavioral questions are mainly to get know you and your personality. Whether if you possess some traits or has red flags.

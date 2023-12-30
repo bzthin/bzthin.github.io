@@ -1,28 +1,21 @@
 ---
 title: Big O Complexity
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /complexity/
+permalink: /complexity
 ---
-
-# Big O Complexity
-This page contains Big O complexity information.
 
 ## Time Complexity
 - Computational complexity that describes the amount of computer time it takes to run an algorithm.
 - Big O: Used to describe the upper bound on the run time. 
 - There are three kinds of cases for all algorithms,
-  - Best case: Shortest possible runtim scenario.
+  - Best case: Shortest possible runtime scenario.
   - Worst case: Longest possible runtime scenario.
-  - Expected case: General cases scenario.
-- During interviews, we usually discuss worst case and expected case.
+  - Average case: General cases scenario.
+- During interviews, we usually discuss worst case and average case.
 
 ## Deriving Time Complexity
 - Time complexities are straight forward in most cases but can be confusing when deriving logarithmic time and recursive time.
-- Best way to understand time complexity is to work with some examples. You can find many examples in CTCI and their explaination.
+- Best way to understand time complexity is to work with some examples. You can find many examples in CTCI book and their explaination.
 
 ## Space Complexity
 - Measure of the amount of working storage an algorithm needs.

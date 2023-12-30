@@ -1,15 +1,8 @@
 ---
 title: Resume
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /interview-process_resume
+permalink: /interview_process_resume
 ---
-
-# Resume
-This page contains resume information.
 
 ## Construction
 - Consider using LaTeX to simplify resume building. It saves time + its reusable + it will be well formatted. Spend your time brushing up your skills instead.

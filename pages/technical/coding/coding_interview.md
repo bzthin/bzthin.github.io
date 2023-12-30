@@ -1,15 +1,8 @@
 ---
 title: Coding Interview
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /coding_coding-interview/
+permalink: /coding_interview
 ---
-
-# Coding Interview
-This page contains coding interview information. 
 
 ## Steps to solving coding problems
 - Gather requirements/Clarify the question: 
