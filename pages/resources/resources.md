@@ -20,12 +20,11 @@ hide_sidebar: true
 ### Essential
 - [System Design Interview by Alex Xu](https://www.amazon.com/dp/B08B3FWYBX/)
 - [System Design Interview 2 by Alex Xu](https://www.amazon.com/dp/1736049119)
-
+  
 ### Others
-  - [Grokking the system design interview](https://www.educative.io/courses/grokking-the-system-design-interview)
-  - [System Design Primer](https://github.com/donnemartin/system-design-primer)
   - [Designing Data-Intensive Applications](https://www.amazon.com/dp/B06XPJML5D): This goes way beyond interview level but is very useful even for day to day software engineering
-- Others
+  - [System Design Primer](https://github.com/donnemartin/system-design-primer)
+  - [System Design Interview Roadmap](https://www.designgurus.io/path/System-Design-Interview-Playbook)
   - [Facebook system design interview: 4 must watched videos](https://mlengineer.io/facebook-system-design-interview-4-must-watched-videos-212e07d4fbc2)
   - [CheckCheckzz System Design List](https://github.com/checkcheckzz/system-design-interview): Contains tons of resources for system design practice.
 
