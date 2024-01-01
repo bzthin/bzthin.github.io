@@ -1,15 +1,8 @@
 ---
 title: Databases
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /misc_databases/
+permalink: /misc_databases
 ---
-
-# Databases
-- This page contains some databases notes
 
 ## SQL vs NoSQL
 - SQL databases are relational, NoSQL are non-relational.

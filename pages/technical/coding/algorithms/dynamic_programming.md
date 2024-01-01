@@ -1,14 +1,10 @@
 ---
 title: Dynamic Programming
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /algorithms_dynamic-programming/
+permalink: /algorithms_dynamic_programming
 ---
 
-# Dynamic programming 
+## Dynamic programming 
 - Identify that a problem requires dynamic programming when it has overlapping sub problems.
 - Approaches can be top down or bottom up.
 

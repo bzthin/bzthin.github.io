@@ -3,7 +3,6 @@ title: About
 sidebar: 
 permalink: /about
 hide_sidebar: true
-keywords: Thin Bing Zong
 ---
 
 Hi, my name is Thin Bing Zong, I am a software engineer. 

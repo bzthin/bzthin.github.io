@@ -77,44 +77,38 @@ entries:
     - title: Bits Manipulation
       url: /algorithms_bits_manipulation
       output: web
+    - title: Dynamic Programming
+      url: /algorithms_dynamic_programming
+      output: web
+    - title: Graph
+      url: /algorithms_graph
+      output: web
+    - title: Linked List
+      url: /algorithms_linked_list2
+      output: web
+    - title: Sorting
+      url: /algorithms_sorting
+      output: web
+    - title: Tree
+      url: /algorithms_tree
+      output: web
 
-  #       - title: Dynamic Programming
-  #         url: /algorithms_dynamic-programming
-  #         output: web
+  - title: Coding Misc
+    output: web
+    folderitems:
 
-  #       - title: Graph
-  #         url: /algorithms_graph
-  #         output: web
-
-  #       - title: Linked List
-  #         url: /algorithms_linked-list
-  #         output: web
-
-  #       - title: Sorting
-  #         url: /algorithms_sorting
-  #         output: web
-
-  #       - title: Tree
-  #         url: /algorithms_tree
-
-  #     - title: Misc
-  #       output: web
-  #       subfolderitems:
-  #       - title: Databases 
-  #         url: /misc_databases
-  #         output: web
-
-  #       - title: Math
-  #         url: /misc_math
-  #         output: web
-
-  #       - title: Competitive Programming 
-  #         url: /misc_competitive-programming
-  #         output: web
-
-  #       - title: Others 
-  #         url: /misc_others
-  #         output: web
+    - title: Competitive Programming 
+      url: /misc_competitive_programming
+      output: web
+    - title: Databases 
+      url: /misc_databases
+      output: web
+    - title: Math
+      url: /misc_math
+      output: web
+    - title: Object Orientated Design 
+      url: /misc_ood
+      output: web
 
   - title: System Design
     output: web

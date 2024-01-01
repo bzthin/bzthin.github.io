@@ -1,16 +1,8 @@
 ---
 title: Linked List
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /algorithms_linked-list/
+permalink: /algorithms_linked_list2
 ---
-
-
-# Linked List
-This page contains algorithms relating to linked list.
 
 ## Slow Fast Runner 
 - The runner technique means iterating through the linked list with two pointers simultaneously, with one ahead of the other.

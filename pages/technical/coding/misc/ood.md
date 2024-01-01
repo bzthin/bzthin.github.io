@@ -1,15 +1,8 @@
 ---
-title: Others
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
+title: Object Orientated Design 
 sidebar: technical_sidebar
-permalink: /misc_others/
+permalink: /misc_ood
 ---
-
-# Others
-- This page contains others information
 
 ## Concepts
 ### Object Oriented Programming
@@ -35,14 +28,3 @@ permalink: /misc_others/
 - Virtual inheritance is a C++ technique that ensures only one copy of a base class's member variables are inherited by grandchild derived classes. 
 
 <br>
-
-# Future topics
-## Multithreading
-- C++ STL [multithreading](https://www.cplusplus.com/reference/multithreading/)
-- C++ multithread patterns?
-- Locks? Mutex? Semaphore? Future?
-
-## MapReduce
-- For system design?
-
-

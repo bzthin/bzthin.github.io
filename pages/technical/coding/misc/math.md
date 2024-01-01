@@ -1,14 +1,10 @@
 ---
 title: Math
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /misc_math/
+permalink: /misc_math
 ---
 
-# Math
+## Math
 This page contains Math information. Here are some common math that is sometimes required in algorithms or deriving time complexity.
 
 ## Series

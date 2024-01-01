@@ -1,14 +1,10 @@
 ---
 title: Competitive Programming 
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /misc_competitive-programming
+permalink: /misc_competitive_programming
 ---
 
-# Competitive Programming
+## Competitive Programming
 - This page contains competitive programming tips
 
 ## Template
@@ -19,7 +15,6 @@ int main() {
   // code
 }
 ```
-
 
 ## Input and output
 - Use `cin, cout, printf, scanf, getline` for input and output related

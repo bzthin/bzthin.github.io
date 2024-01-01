@@ -1,94 +1,11 @@
 ---
 title: Sorting
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /algorithms_sorting/
+permalink: /algorithms_sorting
 ---
 
-# Sorting
-This page contains sorting information. 
-
-
-## Bubble sort
-- Runtime Average: O(n^2)
-- Runtime Worst: O(n^2)
-- Memory Worst: O(1)
-- Algorithm: Start at the beginning of the array and swap the first two elements if the first is greater
-than the second. Then, go to the next pair, and so on, continuously making sweeps of the array until it is
-sorted. In doing so, the smaller items slowly "bubble" up to the beginning of the list.
-
-```c++
-void BubbleSort(vector<int> &v)
-{
-    int n = v.size();
-    for (int i = 0; i < n; ++i)
-    {
-        bool hasSwaps = false;
-        for (int j = 1; j < n-i; ++j)
-        {
-            if (v[j-1] > v[j])
-            {
-                swap(v[j-1], v[j]);
-                hasSwaps = true;
-            }
-        }
-        
-        if (!hasSwaps) 
-        {
-            break;
-        }
-    }
-}
-```
-
-
-## Selection sort
-- Runtime Average: O(n^2)
-- Runtime Worst: O(n^2)
-- Memory Worst: O(1)
-- Algorithm: Find the smallest element using a linear scan and move it to the front (swapping it with the front element). 
-Then, find the second smallest and move it again doing a linear scan. Continue doing this until all the elements are in place.
-
-```c++
-void SelectionSort(vector<int> &v)
-{
-    int n = v.size();
-    for (int i = 0; i < n-1; ++i)
-    {
-        auto minIter = min_element(v.begin()+i, v.end());
-        swap(v[i], *minIter);
-    }
-}
-```
-
-
-## Insertion sort
-- Runtime Average: O(n^2)
-- Runtime Worst: O(n^2)
-- Memory Worst: O(1)
-- Algorithm: Separate array into sorted and non sorted parts. 
-Iterate through array, taking each element and inserting them into the right position in the sorted array part.
-
-```c++
-void InsertionSort(vector<int> &v)
-{
-    int n = v.size();
-    for (int i = 1; i < n; ++i)
-    {
-        int j = i;
-        int num = v[j];
-        while (j > 0 && v[j-1] > num)
-        {
-            v[j] = v[j-1];
-            --j;
-        }
-        v[j] = num;
-    }
-}
-```
+## Overall
+- For interviews, the important ones would be merge sort, quick sort, topological sort. The rest would be good to know but usually not asked to implement.
 
 
 ## Merge Sort
@@ -176,43 +93,6 @@ int Partition(vector<int> &v, int l, int r)
     return i;
 }
 ```
-
-
-## Counting Sort
-- Runtime Average: O(n+k)
-- Runtime Worst: O(n+k)
-- Memory Worst: O(k)
-- Input is from a small range of integer, i.e 0 to k-1
-- Algorithm: Use an array (A) to count number of counts for each key. 
-Sum each element in A with the previous element to get where the key ends in index.
-Loop through original array from the back, for each element, get from A its index and decrement the index in A for future occurrence.
-  - Has traverse original array in reverse order for the sort to be stable.
-
-
-## Bucket Sort
-- Runtime Average: O(n)
-- Runtime Worst: O(n^2)
-- Memory Worst: O(n)
-- Input data should be from a uniform distribution (i.e 0 to 100).
-- Algorithm: Bucket sort, or bin sort, is a sorting algorithm that works by distributing the elements of an array into a number of buckets. 
-Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm.
-  - Note that the individual sort here is usually constant because if the data is uniformly distributed, each bucket would have <= <constant> items.
-
-
-## Radix Sort
-- Runtime Average: O(kn)
-- Runtime Worst: O(kn)
-- Memory Worst: O(1)
-- Algorithm: Sorting algorithm for integers that takes advantage of the fact that integers have a finite number of bits. 
-In radix sort, we iterate through each digit of the number, grouping numbers by each digit. 
-Think of it as counting sort on each digit of the input separately.
-
-
-## Heap Sort
-- Runtime Average: O(nlogn)
-- Runtime Worst: O(nlogn)
-- Memory Worst: O(1)
-- Algorithm: Build max heap, remove max, heapify, repeat until heap is empty.
 
 
 ## Topological sort
@@ -309,4 +189,118 @@ function visit(node n)
     add n to head of L
 ```
 
+## Bubble sort
+- Runtime Average: O(n^2)
+- Runtime Worst: O(n^2)
+- Memory Worst: O(1)
+- Algorithm: Start at the beginning of the array and swap the first two elements if the first is greater
+than the second. Then, go to the next pair, and so on, continuously making sweeps of the array until it is
+sorted. In doing so, the smaller items slowly "bubble" up to the beginning of the list.
+
+```c++
+void BubbleSort(vector<int> &v)
+{
+    int n = v.size();
+    for (int i = 0; i < n; ++i)
+    {
+        bool hasSwaps = false;
+        for (int j = 1; j < n-i; ++j)
+        {
+            if (v[j-1] > v[j])
+            {
+                swap(v[j-1], v[j]);
+                hasSwaps = true;
+            }
+        }
+        
+        if (!hasSwaps) 
+        {
+            break;
+        }
+    }
+}
+```
+
+
+## Selection sort
+- Runtime Average: O(n^2)
+- Runtime Worst: O(n^2)
+- Memory Worst: O(1)
+- Algorithm: Find the smallest element using a linear scan and move it to the front (swapping it with the front element). 
+Then, find the second smallest and move it again doing a linear scan. Continue doing this until all the elements are in place.
+
+```c++
+void SelectionSort(vector<int> &v)
+{
+    int n = v.size();
+    for (int i = 0; i < n-1; ++i)
+    {
+        auto minIter = min_element(v.begin()+i, v.end());
+        swap(v[i], *minIter);
+    }
+}
+```
+
+
+## Insertion sort
+- Runtime Average: O(n^2)
+- Runtime Worst: O(n^2)
+- Memory Worst: O(1)
+- Algorithm: Separate array into sorted and non sorted parts. 
+Iterate through array, taking each element and inserting them into the right position in the sorted array part.
+
+```c++
+void InsertionSort(vector<int> &v)
+{
+    int n = v.size();
+    for (int i = 1; i < n; ++i)
+    {
+        int j = i;
+        int num = v[j];
+        while (j > 0 && v[j-1] > num)
+        {
+            v[j] = v[j-1];
+            --j;
+        }
+        v[j] = num;
+    }
+}
+```
+
+
+## Counting Sort
+- Runtime Average: O(n+k)
+- Runtime Worst: O(n+k)
+- Memory Worst: O(k)
+- Input is from a small range of integer, i.e 0 to k-1
+- Algorithm: Use an array (A) to count number of counts for each key. 
+Sum each element in A with the previous element to get where the key ends in index.
+Loop through original array from the back, for each element, get from A its index and decrement the index in A for future occurrence.
+  - Has traverse original array in reverse order for the sort to be stable.
+
+
+## Bucket Sort
+- Runtime Average: O(n)
+- Runtime Worst: O(n^2)
+- Memory Worst: O(n)
+- Input data should be from a uniform distribution (i.e 0 to 100).
+- Algorithm: Bucket sort, or bin sort, is a sorting algorithm that works by distributing the elements of an array into a number of buckets. 
+Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm.
+  - Note that the individual sort here is usually constant because if the data is uniformly distributed, each bucket would have <= <constant> items.
+
+
+## Radix Sort
+- Runtime Average: O(kn)
+- Runtime Worst: O(kn)
+- Memory Worst: O(1)
+- Algorithm: Sorting algorithm for integers that takes advantage of the fact that integers have a finite number of bits. 
+In radix sort, we iterate through each digit of the number, grouping numbers by each digit. 
+Think of it as counting sort on each digit of the input separately.
+
+
+## Heap Sort
+- Runtime Average: O(nlogn)
+- Runtime Worst: O(nlogn)
+- Memory Worst: O(1)
+- Algorithm: Build max heap, remove max, heapify, repeat until heap is empty.
 

@@ -1,16 +1,12 @@
 ---
 title: Graph
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /algorithms_graph/
+permalink: /algorithms_graph
 ---
 
-# Graphs
-This page contains graphs algorithms. 
- 
+## Overall
+- There are many graph algorithms. Important ones are usually BFS/DFS and topological sort(in sorting section). But would be good to know Dijkstra and Prim/Kruskal.
+
 ## Minimum spanning tree
 -  A minimum spanning tree is a spanning tree with the minimum possible total edge weight in a “weighted undirected graph”.
 
@@ -126,8 +122,7 @@ function BellmanFord(list vertices, list edges, vertex source) is
 ## Strongly Connected Components: 
 - In the mathematical theory of directed graphs, a graph is said to be strongly connected if every vertex is reachable from every other vertex. 
 ### Tarjan's Algorithm
-- Aalgorithm in graph theory for finding the strongly connected components (SCCs) of a directed graph.
-- TBD
+- A algorithm in graph theory for finding the strongly connected components (SCCs) of a directed graph.
 
 
 

@@ -1,22 +1,13 @@
 ---
 title: Graphs
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /algorithms_tree/
+permalink: /algorithms_tree
 ---
-
-# Trees
-This page contains trees algorithms. 
 
 ## Binary tree traversal
 - In order (left, current, right)
 - Pre order (current, left, right)
 - Post order (left, right, current)
-
-<br/>
 
 ## Depth First Search
 - Start at root and explore each branch completely before moving on to next branch

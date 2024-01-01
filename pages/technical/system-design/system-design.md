@@ -1,11 +1,7 @@
 ---
 title: System Design
-tags: 
-keywords: 
-last_updated: Oct 2, 2022
-summary: 
 sidebar: technical_sidebar
-permalink: /system-design
+permalink: /system_design
 ---
 
 
@@ -59,6 +55,7 @@ Usually no right answers and will be more discussion based. You should drive the
   - How many users are we expecting
   - How will they use it.
   - Write those down in functional, non functional requirements and extra requirements
+
 - Back of the envelope estimation. 
   - Throughput (amount of data that is successfully transmitted through a system in a certain amount of time)
   - Bandwidth (amount of data that can be transmitted and received during a specific period of time)
@@ -67,11 +64,13 @@ Usually no right answers and will be more discussion based. You should drive the
   - Traffic estimation for read write
   - Storage estimate
   - Memory estimate
+
 - High level design
   - System Interface definition. State APIs required from the system to ensure understanding on requirements.
   - Draw the major components without going too deep.
   - Defining database schema.
   - Walk through end to end flow for read/ & write.
+  
 - Deep dive
   - Scaling algorithm
   - Scaling individual components (Availability, consistency, scale) 
