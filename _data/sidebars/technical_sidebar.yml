@@ -93,15 +93,12 @@ entries:
       url: /algorithms_tree
       output: web
 
-  - title: Coding Misc
+  - title: Misc
     output: web
     folderitems:
 
     - title: Competitive Programming 
       url: /misc_competitive_programming
-      output: web
-    - title: Databases 
-      url: /misc_databases
       output: web
     - title: Math
       url: /misc_math
@@ -114,7 +111,10 @@ entries:
     output: web
     folderitems:
     
-    - title: System design
+    - title: General
       url: /system_design
+      output: web
+    - title: Database
+      url: /system_design_database
       output: web
     

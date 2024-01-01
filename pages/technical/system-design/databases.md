@@ -1,7 +1,7 @@
 ---
-title: Databases
+title: Database
 sidebar: technical_sidebar
-permalink: /misc_databases
+permalink: /system_design_database
 ---
 
 ## SQL vs NoSQL
