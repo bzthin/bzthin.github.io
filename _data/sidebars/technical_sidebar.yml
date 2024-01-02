@@ -126,4 +126,13 @@ entries:
     - title: Framework
       url: /system_design_framework
       output: web
+
+      subfolders:
+      - title: Examples
+        output: web
+        subfolderitems:
+
+        - title: Rate Limiter
+          url: /system_design_examples_rate_limiter
+          output: web
     
