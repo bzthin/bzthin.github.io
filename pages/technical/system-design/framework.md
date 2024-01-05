@@ -7,19 +7,26 @@ permalink: /system_design_framework
 ## Framework
 - 4-step process for effective system design interview
 
-## Step 1 - Understand the problem and establish design scope
-- Important to understand the requirements and clarify ambiguities
+## Step 1 - Requirements clarifications
+- Clarify functional, non functional, and other requirements.
+- What scale is expected from the system
+- How much storage will we need? 
+- What network bandwidth usage are we expecting? This will be crucial in deciding how we will
+manage traffic and balance load between servers.
 
 ## Step 2 - Propose high-level design and get buy-in
 - Aim to develop a high-level design and reach an agreement with the interviewer on the design
-
-## Step 3 - Design deep dive
-- At this step, you and your interviewer should have already achieved the following objectives:
+- At this step, you and your interviewer should have achieved the following objectives:
   - Agreed on the overall goals and feature scope
   - Sketched out a high-level blueprint for the overall design
   - Obtained feedback from your interviewer on the high-level design
   - Had some initial ideas about areas to focus on in deep dive based on her feedback
+
+## Step 3 - Design deep dive
 - You shall work with the interviewer to identify and prioritize components in the architecture.
+- Discuss API interface definition.
+- Define data model.
+- Deep dive into individual aspects.
 
 ## Step 4 - Wrap up
 - In this final step, the interviewer might ask you a few follow-up questions or give you the
