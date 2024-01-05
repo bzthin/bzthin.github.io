@@ -40,9 +40,19 @@ permalink: /system_design_examples_tiny_url
 ## Step 2 - Propose high-level design and get buy-in
 - High level components
 - API input and output. Throttling, error handling
-- Page 7
+- Database design. 
+  - Observe we need to store billions of small records and no relations with each other.
+  - Two database tables, one for url link, another for user information.
+  - Thus use NoSQL.
 
 
 ## Step 3 - Design deep dive
+- How is url generated? 2 ways, using a hash function like SHA256 or generate keys offline.
+- Just simply using SHA256 is not sufficient because different users with same url can get same generated url. Append an increasing sequence number or user id.
+- We can generate keys offline first and stores them in a db. 
+- In terms of sharding, consider partitioning by url (range based) or hash based.
+- Cache URLs that are frequently accessed with LRU eviction policy
 
 ## Step 4 - Wrap up
+- Telemetry. (Metrics and logging)
+- Security and permissions.
