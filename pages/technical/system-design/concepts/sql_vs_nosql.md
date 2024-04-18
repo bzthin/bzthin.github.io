@@ -1,16 +1,20 @@
 ---
-title: Database
+title: SQL vs NoSQL
 sidebar: technical_sidebar
-permalink: /system_design_database
+permalink: /system_design_sql_vs_nosql
 ---
 
-## Relational databases
+## SQL databases
 - Represent and store data in tables and rows. 
 - Can perform join operations using SQL across different database tables.
 - Example: MySQL, Oracle database, PostgreSQL, etc. 
 
-## Non relational databases
-- Also called NoSQL databases. Grouped into four categories: key-value stores, graph stores, column stores, and document stores. 
+## NoSQL databases
+- Also called NoSQL databases. Grouped into four categories: 
+  - key-value stores, 
+  - graph stores, 
+  - column stores, 
+  - document stores. 
 - Join operations are generally not supported in non-relational databases.
 - Example: CouchDB, Neo4j, Cassandra, HBase, Amazon DynamoDB, etc.
 
@@ -20,11 +24,14 @@ permalink: /system_design_database
 - SQL databases are vertically scalable, NoSQL databases are horizontally scalable.
 - SQL databases are table based, while NoSQL databases are document, key-value, graph or wide-column stores.
 - SQL databases are better for multi-row transactions, NoSQL are better for unstructured data like documents or JSON.
+- SQL databases are ACID compliant. NoSQL solutions sacrifice ACID compliance for performance and scalability.
 
-## Vertical scaling vs horizontal scaling
-- Vertical scaling, referred to as “scale up”, means the process of adding more power (CPU, RAM, etc.) to your servers. 
-- Horizontal scaling, referred to as “scale-out”, allows you to scaleby adding more servers into your pool of resources.
-- Vertical scaling, though easy, has hard limits, no failover or redundacy. Horizontal scaling is more preferred for large applications.
+## ACID
+- ACID is a set of properties of relational database transactions.
+- Atomicity - Each transaction is all or nothing
+- Consistency - Any transaction will bring the database from one valid state to another
+- Isolation - Executing transactions concurrently has the same results as if the transactions were executed serially
+- Durability - Once a transaction has been committed, it will remain so
 
 ## Denormalized vs. Normalized Databases
 - Normalization is used to remove redundant data from the database and to store non-redundant and consistent data into it.	

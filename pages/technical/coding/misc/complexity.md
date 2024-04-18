@@ -24,6 +24,7 @@ permalink: /big_o_complexity
 ## Deriving Space Complexity
 - Simiarly to time complexity, space complexities are straight forward in most cases, best way to understand them is to work with some examples. 
 - Note that during recursive calls, we need to count space allocated on the stack as well.
+- We also do not include output space as part of space complexity
 
 ## Big O complexity simplification
 - We will drop constants and non dominant terms for big O notations to make it less complicated to express its complexity.

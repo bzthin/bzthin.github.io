@@ -117,9 +117,7 @@ entries:
     - title: Core Concepts
       url: /system_design_core_concepts
       output: web
-    - title: Database
-      url: /system_design_database
-      output: web
+
     - title: Estimation
       url: /system_design_estimation
       output: web
@@ -127,6 +125,50 @@ entries:
       url: /system_design_framework
       output: web
 
+      subfolders:
+      - title: Concepts
+        output: web
+        subfolderitems:
+
+        - title: Load Balancing
+          url: /system_design_load_balancing
+          output: web
+        - title: API Gateway
+          url: /system_design_api_gateway
+          output: web
+        - title: Characteristics
+          url: /system_design_characteristics
+          output: web
+        - title: Network
+          url: /system_design_network
+          output: web
+        - title: Domain Name System
+          url: /system_design_dns
+          output: web
+        - title: Caching
+          url: /system_design_caching
+          output: web
+        - title: Content delivery network
+          url: /system_design_cdn
+          output: web
+        - title: SQL vs NoSQL
+          url: /system_design_sql_vs_nosql
+          output: web
+        - title: Database
+          url: /system_design_database
+          output: web
+        - title: Replication
+          url: /system_design_replication
+          output: web
+        - title: CAP
+          url: /system_design_cap
+          output: web
+      
+      
+    - title: Framework
+      url: /system_design_framework
+      output: web
+      
       subfolders:
       - title: Examples
         output: web
@@ -138,5 +180,4 @@ entries:
         - title: Rate Limiter
           url: /system_design_examples_rate_limiter
           output: web
-        
     
