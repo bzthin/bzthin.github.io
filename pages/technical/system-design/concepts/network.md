@@ -30,3 +30,18 @@ permalink: /system_design_network
 - Network Layer (Layer 3)
 - Data Link Layer (Layer 2)
 - Physical Layer (Layer 1)
+
+
+## Long polling vs web sockets vs server sent events 
+- Long-polling is a request-response mechanism with delayed responses, 
+- WebSockets provide full-duplex communication over a persistent connection, 
+- SSE allows servers to push updates to clients over a unidirectional channel.
+
+## Heartbeat
+- Aheartbeat is a periodic signal or message sent by a component or node to indicate its operational status and availability. 
+- Heartbeats are used in distributed systems, networks, and monitoring tools to detect failures, maintain connectivity, and ensure system reliability. By regularly sending and receiving heartbeats, nodes can monitor the health of each other and quickly identify any failures or network issues, enabling timely response and recovery actions.
+
+## Checksum
+- A checksum is a value calculated from a data set using a specific algorithm, typically for the purpose of detecting errors during data transmission or storage.
+-  It's a form of redundancy check that helps ensure data integrity by verifying that the transmitted or stored data hasn't been corrupted or tampered with. 
+- Checksums are commonly used in networking protocols, file transfer protocols, storage systems, and cryptographic operations.

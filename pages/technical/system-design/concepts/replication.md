@@ -17,3 +17,12 @@ copies. The master gets all the updates, which then ripple through to the
 slaves. Each slave outputs a message stating that it has received the update
 successfully, thus allowing the sending of subsequent updates.
 
+## Quorum
+- A quorum refers to the minimum number of nodes or components that must agree or acknowledge an operation for it to be considered successful or valid. 
+- It ensures that a distributed system remains consistent and available even in the presence of failures or network partitions. 
+- In a system with n replicas
+  - If a write is acknowledged by w replicas (write quorum)
+  - And we subsequently read from r replicas (read quorum)
+  - and r+w > n
+  - Then the read will see the previously written value (or a value that subsequently overwrote it)
+  - Read quorum and write quorum share >=1 replica
