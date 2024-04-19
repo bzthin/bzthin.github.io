@@ -5,83 +5,20 @@ permalink: /system_design
 ---
 
 
-# System Design
-Usually no right answers and will be more discussion based. You should drive the conversation.
+## System Design Interview
+- A system design interview is a type of technical interview where candidates are asked to design scalable and efficient software systems to solve real-world problems. 
+- Unlike coding interviews, system design has no right or wrong answers thus to do well, we should understand how are system design interviews evaluated
 
-## Key concepts
-- Key characteristics of a distributed system include Scalability, Reliability, Availability, Efficiency, and Manageability. 
-  - Scalability
-    - Horizontal vs vertical scaling
-  - Reliability (with redundancy)
-  - Availability
-  - Efficiency
-  - Maintainability
-- Load balancing
-- Caching 
-  - Application server cache
-  - Content distribution network (CDN)
-  - Cache invalidation
-  - Cache eviction
-- Data partitioning (or database partitioning)
-  - Horizontal partitioning (data sharding)
-  - Vertical partitioning
-  - Directory Based Partitioning
-- Database indexing
-- Proxy server
-- Redundancy and replication
-- SQL vs NoSQL
-- CAP 
-  - CAP theorem states that it is impossible for a distributed software system to simultaneously provide more than two out of three of the following guarantees (CAP): Consistency, Availability, and Partition tolerance
-- Consistent Hashing
-- Asynchronous processing & queues
-- Networking metrics
-  - Bandwidth
-  - Throughput
-  - Latency
+## General points of evaluation
+1. Navigate ambuiguity.
+  - Asks questions or communicate assumptions to understand the problem requirements and edge cases.
+  - Understands the entire problem or go beyond the obvious use/edge cases.
+2. Create scalable designs
+  - Able to create scalable designs that considers availability and reliability as well for estimated users.
+  - Understands bottlenecks and can provide solutions without over engineering.
+  - Components have clear responsibilities and boundaries, interactions between them are well defiend.
+3. Consider alternatives and tradeoffs. 
+  - We should be able to evaluate different solutions/tools pros and cons and explain our decision for the specific problem with justifications.
+4. Operational Excellence.
+  - Considers OE factors in their solution such as logging, monitoring, tests, infrastructure as code and CI/CD.
 
-
-## Considerations
-- Failures/Exceptions
-- Availability and reliability 
-- Read heavy vs write heavy
-- Security
-
-
-## Steps
-- Requirements expectations and clarifications  
-  - Use cases
-  - Scenarios that will not be covered
-  - Who are our users
-  - How many users are we expecting
-  - How will they use it.
-  - Write those down in functional, non functional requirements and extra requirements
-
-- Back of the envelope estimation. 
-  - Throughput (amount of data that is successfully transmitted through a system in a certain amount of time)
-  - Bandwidth (amount of data that can be transmitted and received during a specific period of time)
-  - Read/Write Latency. (Amount of time in ms it takes for a message to be sent or received)
-  - Read/Write ratio
-  - Traffic estimation for read write
-  - Storage estimate
-  - Memory estimate
-
-- High level design
-  - System Interface definition. State APIs required from the system to ensure understanding on requirements.
-  - Draw the major components without going too deep.
-  - Defining database schema.
-  - Walk through end to end flow for read/ & write.
-  
-- Deep dive
-  - Scaling algorithm
-  - Scaling individual components (Availability, consistency, scale) 
-  - Consider following components how it can help
-    - DNS
-    - CDN
-    - Load balancer
-    - Reverse proxy
-    - Application layer scaling (Microservices)
-    - Database
-    - Caches
-    - Asynchroism (Messages/tasks queues)
-    - Communication (TCP, UDP, REST, RPC)
-  - Justify design, evaluate pros and cons, bottlenecks and tradeoffs

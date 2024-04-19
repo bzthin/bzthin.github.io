@@ -114,16 +114,6 @@ entries:
     - title: General
       url: /system_design
       output: web
-    - title: Core Concepts
-      url: /system_design_core_concepts
-      output: web
-
-    - title: Estimation
-      url: /system_design_estimation
-      output: web
-    - title: Framework
-      url: /system_design_framework
-      output: web
 
       subfolders:
       - title: Concepts
@@ -175,6 +165,9 @@ entries:
       
     - title: Framework
       url: /system_design_framework
+      output: web
+    - title: Estimation
+      url: /system_design_estimation
       output: web
       
       subfolders:
