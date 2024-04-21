@@ -175,10 +175,9 @@ entries:
         output: web
         subfolderitems:
 
-        - title: TinyURL
-          url: /system_design_examples_tiny_url
-          output: web
         - title: Rate Limiter
           url: /system_design_examples_rate_limiter
           output: web
-    
+        - title: TinyURL
+          url: /system_design_examples_tiny_url
+          output: web
