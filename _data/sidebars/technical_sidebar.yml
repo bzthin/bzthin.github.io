@@ -135,6 +135,9 @@ entries:
         - title: Characteristics
           url: /system_design_characteristics
           output: web
+        - title: Consistent Hashing
+          url: /system_design_consistent_hashing
+          output: web
         - title: Content delivery network
           url: /system_design_cdn
           output: web

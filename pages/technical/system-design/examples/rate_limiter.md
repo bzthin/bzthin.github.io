@@ -4,6 +4,9 @@ sidebar: technical_sidebar
 permalink: /system_design_examples_rate_limiter
 ---
 
+## Problem
+- Design a rate limiter.
+
 ## Step 1 - Requirements clarifications
 - Functional
   - Accurately limit excessive requests
@@ -37,11 +40,12 @@ permalink: /system_design_examples_rate_limiter
   - Rules are written as configurations and stored on disk.
 - How to handle requests that are rate limited?
   - API will return HTTP response 429.
+- We need to add monitoring to ensure rate limiting algorithms and rules are effective
 
 ## Step 4 - Wrap up
-- Rate limiter in distributed enviornment has race condition and synchornization
-- For race condition, we can use lua script or sorted sets data structure.
-- For synchronization, we use centralize data stores like elastic cache
+- Hard vs soft rate limiting
+- Rate limiting at different OSI levels.
+
 
 ## Notes
 ### Token bucket algorithm

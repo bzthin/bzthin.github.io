@@ -10,15 +10,16 @@ permalink: /system_design_framework
 ## Step 1 - Requirements clarifications
 - Navigate ambuiguity and understand the problem entirely.
 - Get basic requirements
-  - Who are our users, how many users are we expecting and how will they use this.
+  - Who are our users, and how will they use this.
   - Functional, non functional requirements and extra requirements.
   - Out of scope requirements.
 - Estimate system requirements
-  - Throughput (amount of data that is successfully transmitted through a system in a certain amount of time)
-  - Bandwidth (amount of data that can be transmitted and received during a specific period of time)
-  - Read/Write Latency. (Amount of time in ms it takes for a message to be sent or received)
-  - Read/Write ratio
-  - Traffic estimation for read write
+  - Scale (How many users, how much data is there)
+  - Latency (How fast is the APIs supposed to be?)
+    - Read/Write Latency. (Amount of time in ms it takes for a message to be sent or received)
+    - Read/Write ratio
+  - Throughput (What is our QPS? Are there burst queries?)
+    - Traffic estimation for read write
   - Storage estimate
   - Memory estimate
 - Suggest improvements
@@ -33,18 +34,18 @@ permalink: /system_design_framework
 - Walk through end to end flow.
 
 ## Step 3 - Design deep dive
-- You shall work with the interviewer to identify and prioritize components in the architecture.
+- Identify and prioritize components in the architecture.
 - Discuss API interface definition.
 - Define data model.
 - Deep dive into individual aspects.
 - Justify design, evaluate pros and cons, bottlenecks and tradeoffs
 
 ## Step 4 - Wrap up
-- In this final step, the interviewer might ask you a few follow-up questions or give you the freedom to discuss other additional points.
-- The interviewer might want you to identify the system bottlenecks and discuss potential improvements. Never say your design is perfect and nothing can be improved. There is always something to improve upon. This is a great opportunity to show your critical thinking and leave a good final impression.
-- It could be useful to give the interviewer a recap of your design. This is particularly important if you suggested a few solutions. Refreshing your interviewer’s memory can be helpful after a long session.
+- Follow-up questions from interviewers
+- Identify the system bottlenecks and discuss potential improvements. 
+- Recap of your design if you have suggested multiple solutions to refresh interviewer's memory
 - Error cases (server failure, network loss, etc.) are interesting to talk about.
-- Operation issues are worth mentioning. How do you monitor metrics and error logs? How to roll out the system?
+- Operation excellence, monitoring metrics and logs. How to fallback and recover on failure.
 - How to handle the next scale curve is also an interesting topic. For example, if your current design supports 1 million users, what changes do you need to make to support 10 million users?
 - Propose other refinements you need if you had more time.
 

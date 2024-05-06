@@ -36,3 +36,7 @@ permalink: /system_design_caching
 ## Cache read strategies
 - Cache-Aside (Lazy Loading): In cache-aside (also known as lazy loading), the application first checks the cache for the requested data. If the data is not found in the cache (a cache miss), the application fetches the data from the underlying data source (such as a database) and then stores it in the cache before returning it to the requester.
 - Read-Through Cache (Read-Through): In read-through cache, the application does not directly interact with the cache. Instead, it reads data from the cache through a caching layer or cache proxy. When data is requested, the caching layer automatically checks the cache. If the data is not found (a cache miss), the caching layer fetches the data from the underlying data source, caches it, and then returns it to the application.
+
+
+## Redis vs Memcached
+- Redis and Memcached are popular, open-source, in-memory data stores. Although they are both easy to use and offer high performance, there are important differences to consider when choosing an engine. Memcached is designed for simplicity while Redis offers a rich set of features that make it effective for a wide range of use cases. 
